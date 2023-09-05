@@ -1,0 +1,1525 @@
+{
+  "type": "ORDER",
+  "id": "shopping_cart",
+  "items": [
+    {
+      "type": "ORDER_LINE",
+      "id": "5459_5460_5481",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1005863",
+          "name": "Koffiecups recyclezak",
+          "image_ids": [
+            "3ac131bfe3fa406f5ad46b1377bf539421129fb9a1808210d29fe2f2db0a3de1"
+          ],
+          "unit_quantity": "1 stuk",
+          "price": 5,
+          "max_count": 50,
+          "perishable": false,
+          "tags": [],
+          "decorators": [
+            {
+              "type": "QUANTITY",
+              "quantity": 3
+            },
+            {
+              "type": "UNIT_QUANTITY",
+              "unit_quantity_text": "1 stuk"
+            }
+          ]
+        }
+      ],
+      "display_price": 15,
+      "price": 15
+    },
+    {
+      "type": "ORDER_LINE",
+      "id": "5463",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1013971",
+          "name": "Yakult",
+          "image_ids": [
+            "5091ea1b405dca77a7f166655c461fc8f4bf9428e06a105c7a0336be61474911",
+            "7b18f5e6eddbb5313a499896b1502f1f239e08ba9f0cf8ef07a07a04ded61f8d",
+            "8f61b4e00097a714efc87cea28de7e2491afa5f24b4bd116d035e3dc52e0a871"
+          ],
+          "unit_quantity": "8 x 65 ml",
+          "unit_quantity_sub": "€8.17/l",
+          "price": 425,
+          "max_count": 50,
+          "perishable": true,
+          "tags": [],
+          "decorators": [
+            {
+              "type": "QUANTITY",
+              "quantity": 1
+            },
+            {
+              "type": "UNIT_QUANTITY",
+              "unit_quantity_text": "8 x 65 ml"
+            }
+          ]
+        }
+      ],
+      "display_price": 425,
+      "price": 425
+    },
+    {
+      "type": "ORDER_LINE",
+      "id": "5464",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1008752",
+          "name": "Half boerenbrood Waldkorn",
+          "image_ids": [
+            "b3090f50801f5cbaeffad61f04393b64006ffb774f475fe3d69b7eea2ce2ecfe",
+            "855efd186230002d7668cc6f3c0737501b5fefb0e31420f5f95a41bb78ffef0c",
+            "3465a4fc1cf9f75cc3e2ca6b2513f01eafeaed70fc5d5beae04e0021278d1447"
+          ],
+          "unit_quantity": "400 gram",
+          "unit_quantity_sub": "€3.23/kg",
+          "price": 129,
+          "max_count": 50,
+          "perishable": false,
+          "tags": [],
+          "decorators": [
+            {
+              "type": "QUANTITY",
+              "quantity": 1
+            },
+            {
+              "type": "UNIT_QUANTITY",
+              "unit_quantity_text": "400 gram"
+            }
+          ]
+        }
+      ],
+      "display_price": 129,
+      "price": 129
+    },
+    {
+      "type": "ORDER_LINE",
+      "id": "5465",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1011483",
+          "name": "Picnic jong belegen kaas 48+ plakken",
+          "image_ids": [
+            "34e9eddb47018c00c82b14d7f4909ac86f1dc3f3f33fde81840918e885ce9634",
+            "f94efc6bc773a9bc6ee37d1fff79d408d9ce4cd701a6289a548221dd1ca7b88f"
+          ],
+          "unit_quantity": "400 gram",
+          "unit_quantity_sub": "€11.73/kg",
+          "price": 469,
+          "max_count": 50,
+          "perishable": true,
+          "tags": [],
+          "decorators": [
+            {
+              "type": "QUANTITY",
+              "quantity": 1
+            },
+            {
+              "type": "UNIT_QUANTITY",
+              "unit_quantity_text": "400 gram"
+            }
+          ]
+        }
+      ],
+      "display_price": 469,
+      "price": 469
+    },
+    {
+      "type": "ORDER_LINE",
+      "id": "5466",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1017857",
+          "name": "Bolletje volkoren beschuit",
+          "image_ids": [
+            "2d7826b1a0cae04601c32608a7616ee1cf1214b4d86a21d3aad131a482a62af2",
+            "0325c5fa5bf6a8d754e126792bc33fc820cf5e4c07d7fef30d7524db781f4ebc",
+            "d052923061565bf824a272e52e4515c00afaabc1a02067c68d931d95f734bd1a"
+          ],
+          "unit_quantity": "13 stuks",
+          "price": 129,
+          "max_count": 50,
+          "perishable": false,
+          "tags": [],
+          "decorators": [
+            {
+              "type": "QUANTITY",
+              "quantity": 1
+            },
+            {
+              "type": "UNIT_QUANTITY",
+              "unit_quantity_text": "13 stuks"
+            }
+          ]
+        }
+      ],
+      "display_price": 129,
+      "price": 129
+    },
+    {
+      "type": "ORDER_LINE",
+      "id": "5467",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1003403",
+          "name": "Picnic boerderij-eitjes",
+          "image_ids": [
+            "a72e7c5d0596c7ffce178c5b6bc5af758f04b8b93179e78a845b9656d82b32e0"
+          ],
+          "unit_quantity": "10 stuks M/L",
+          "price": 449,
+          "max_count": 50,
+          "perishable": true,
+          "tags": [],
+          "decorators": [
+            {
+              "type": "QUANTITY",
+              "quantity": 1
+            },
+            {
+              "type": "UNIT_QUANTITY",
+              "unit_quantity_text": "10 stuks M/L"
+            }
+          ]
+        }
+      ],
+      "display_price": 449,
+      "price": 449
+    },
+    {
+      "type": "ORDER_LINE",
+      "id": "5468",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1016998",
+          "name": "Kellogg's rice krispies",
+          "image_ids": [
+            "b43d0964e59bfb2321c19b860ecc3d335d6c3d8aa3619ae5eb144ddf3495d475",
+            "a918f025959def9067bd9b4b942b03168ea0291c04c23016ca3b063d09adc5b2"
+          ],
+          "unit_quantity": "360 gram",
+          "unit_quantity_sub": "€10.14/kg",
+          "price": 365,
+          "max_count": 50,
+          "perishable": false,
+          "tags": [],
+          "decorators": [
+            {
+              "type": "QUANTITY",
+              "quantity": 1
+            },
+            {
+              "type": "UNIT_QUANTITY",
+              "unit_quantity_text": "360 gram"
+            }
+          ]
+        }
+      ],
+      "display_price": 365,
+      "price": 365
+    },
+    {
+      "type": "ORDER_LINE",
+      "id": "5469",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1000092",
+          "name": "Kinderbananen",
+          "image_ids": [
+            "2a9540510e46c9c46ca3e07a8f2286987e61de536305fa5f259d9dd7f21052f9",
+            "295f8ba3fc50c6c4f2e5d540529d7ce76a8273af8ca1ebb3a9736b0842734a02"
+          ],
+          "unit_quantity": "6 of 7 stuks (850 gram)",
+          "unit_quantity_sub": "€2.46/kg",
+          "price": 209,
+          "max_count": 50,
+          "perishable": false,
+          "tags": [],
+          "decorators": [
+            {
+              "type": "QUANTITY",
+              "quantity": 1
+            },
+            {
+              "type": "UNIT_QUANTITY",
+              "unit_quantity_text": "6 of 7 stuks (850 gram)"
+            }
+          ]
+        }
+      ],
+      "display_price": 209,
+      "price": 209
+    },
+    {
+      "type": "ORDER_LINE",
+      "id": "5470",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1010576",
+          "name": "Picnic halfvolle melk",
+          "image_ids": [
+            "069f6d3629fa56ea10e7ece240db90241dc29f081d5b243843f23bd1a3a3c211"
+          ],
+          "unit_quantity": "2 liter",
+          "unit_quantity_sub": "€0.93/l",
+          "price": 185,
+          "max_count": 50,
+          "perishable": true,
+          "tags": [],
+          "decorators": [
+            {
+              "type": "QUANTITY",
+              "quantity": 1
+            },
+            {
+              "type": "UNIT_QUANTITY",
+              "unit_quantity_text": "2 liter"
+            }
+          ]
+        }
+      ],
+      "display_price": 185,
+      "price": 185
+    },
+    {
+      "type": "ORDER_LINE",
+      "id": "5471_5472",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1009421",
+          "name": "Picnic halfvolle yoghurt",
+          "image_ids": [
+            "dac3a5bd99826c5d1602b388040e5419b7a131ece26372cb60a6d24c29a5c078",
+            "0bd259de6d553529fc3f6bbe1870617423d348131f18e263de2da8c829377fcd",
+            "fc8985d685b439fdce3ba5ac1d8f26389b9ddb575ec80adac73ca528398a6a09",
+            "34852646cbe0933c64fcc543b6e4afdcea6f89a667573c542be4df0e9450e749"
+          ],
+          "unit_quantity": "1 liter",
+          "unit_quantity_sub": "€1.39/l",
+          "price": 139,
+          "max_count": 50,
+          "perishable": true,
+          "tags": [],
+          "decorators": [
+            {
+              "type": "QUANTITY",
+              "quantity": 2
+            },
+            {
+              "type": "UNIT_QUANTITY",
+              "unit_quantity_text": "1 liter"
+            }
+          ]
+        }
+      ],
+      "display_price": 278,
+      "price": 278
+    },
+    {
+      "type": "ORDER_LINE",
+      "id": "5474",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1001333",
+          "name": "Paprika mix",
+          "image_ids": [
+            "1636e4be66026f7bffcb50b909fcf663268cad440cc1f1e51d5b3a086f356d37"
+          ],
+          "unit_quantity": "3 stuks",
+          "unit_quantity_sub": "€3.78/kg",
+          "price": 174,
+          "max_count": 50,
+          "perishable": false,
+          "tags": [],
+          "decorators": [
+            {
+              "type": "QUANTITY",
+              "quantity": 1
+            },
+            {
+              "type": "UNIT_QUANTITY",
+              "unit_quantity_text": "3 stuks"
+            }
+          ]
+        }
+      ],
+      "display_price": 174,
+      "price": 174
+    },
+    {
+      "type": "ORDER_LINE",
+      "id": "5475",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1018191",
+          "name": "Picnic truffelmayonaise",
+          "image_ids": [
+            "13c4f497bf53af782e99c08aad5c3dfe430c59bd629a815cab9b3e32bf046a2e"
+          ],
+          "unit_quantity": "220 ml",
+          "unit_quantity_sub": "€13.59/l",
+          "price": 299,
+          "max_count": 50,
+          "perishable": false,
+          "tags": [],
+          "decorators": [
+            {
+              "type": "QUANTITY",
+              "quantity": 1
+            },
+            {
+              "type": "UNAVAILABLE",
+              "reason": "AVAILABLE",
+              "replacements": [
+                {
+                  "type": "REPLACEMENT",
+                  "id": "s1011383",
+                  "decorators": [
+                    {
+                      "type": "UNIT_QUANTITY",
+                      "unit_quantity_text": "245 gram"
+                    }
+                  ],
+                  "name": "Jean Bâton truffelmayonaise",
+                  "display_price": 399,
+                  "price": 399,
+                  "image_id": "932f9f1b259561f5ef23a43f119dc2b3cddb9bb4af5b8ec19c95264e533e7509",
+                  "max_count": 50,
+                  "unit_quantity": "245 gram",
+                  "unit_quantity_sub": "€16.29/kg",
+                  "tags": [],
+                  "replacement_type": "ALTERNATIVE"
+                },
+                {
+                  "type": "REPLACEMENT",
+                  "id": "s1013210",
+                  "decorators": [
+                    {
+                      "type": "UNIT_QUANTITY",
+                      "unit_quantity_text": "250 ml"
+                    }
+                  ],
+                  "name": "Mayoneur plantaardige truffelmayonaise",
+                  "display_price": 229,
+                  "price": 229,
+                  "image_id": "57aeb431e83d7032a50d330e0d0832398e62db96e470b399c73372ac03b8b334",
+                  "max_count": 50,
+                  "unit_quantity": "250 ml",
+                  "unit_quantity_sub": "€9.16/l",
+                  "tags": [],
+                  "replacement_type": "ALTERNATIVE"
+                }
+              ],
+              "explanation": {
+                "short_explanation": "#(GREY3)Tijdelijk niet leverbaar#(GREY3)\n#(GREEN1)**Binnenkort terug!**#(GREEN1)",
+                "long_explanation": "#(GREY5)**Tijdelijk niet leverbaar**#(GREY5)\n#(GREY5)Sorry, dit product is nu even niet leverbaar. We zorgen dat het zo snel mogelijk weer terug is!#(GREY5)"
+              },
+              "deeplink": "app.picnic://store/page;id=unavailability-replacements-page-root,selling_unit_id=s1018191"
+            },
+            {
+              "type": "UNIT_QUANTITY",
+              "unit_quantity_text": "220 ml"
+            }
+          ]
+        }
+      ],
+      "display_price": 0,
+      "price": 0
+    },
+    {
+      "type": "ORDER_LINE",
+      "id": "5476",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1063755",
+          "name": "Picnic tissues 2 laags",
+          "image_ids": [
+            "856aaa2435f437183a43b61e557d6ab530283ac5280fa8751a20bf8793b911c1"
+          ],
+          "unit_quantity": "200 stuks",
+          "unit_quantity_sub": "€7.49/kg",
+          "price": 185,
+          "max_count": 99,
+          "perishable": false,
+          "tags": [],
+          "decorators": [
+            {
+              "type": "QUANTITY",
+              "quantity": 1
+            },
+            {
+              "type": "UNIT_QUANTITY",
+              "unit_quantity_text": "200 stuks"
+            }
+          ]
+        }
+      ],
+      "display_price": 185,
+      "price": 185
+    },
+    {
+      "type": "ORDER_LINE",
+      "id": "5492",
+      "items": [
+        {
+          "type": "ORDER_ARTICLE",
+          "id": "s1001524",
+          "name": "Affligem blond",
+          "image_ids": [
+            "14e7fb5a658ea01d75dea4ccfcc14ebb2d2462f626d19563ef49a00af4c317bc",
+            "64bba53f94de87a83887202817ed0dfbc6300d5f8698fde7228a56815749024f",
+            "f09997c80dbe2088303038aff0b401afa7230774ad887331eecd08ae95349ccc",
+            "084a9f8ed948f8f1dc109261e9dfbb2481b92ccfcd0553aa57de9869adab54e7"
+          ],
+          "unit_quantity": "6 x 300 ml",
+          "unit_quantity_sub": "€4.33/l",
+          "price": 779,
+          "deposit": 60,
+          "max_count": 24,
+          "perishable": false,
+          "tags": [],
+          "decorators": [
+            {
+              "type": "QUANTITY",
+              "quantity": 1
+            },
+            {
+              "type": "UNIT_QUANTITY",
+              "unit_quantity_text": "6 x 300 ml"
+            }
+          ]
+        }
+      ],
+      "display_price": 779,
+      "price": 779
+    }
+  ],
+  "delivery_slots": [
+    {
+      "slot_id": "64deb48e5e91961aea7ee0b1",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-02T14:45:00.000+02:00",
+      "window_end": "2023-09-02T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-01T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64deb48e5e91961aea7ee0b1"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64deb48e5e91961aea7ee0b0",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-02T15:30:00.000+02:00",
+      "window_end": "2023-09-02T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-01T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e006205e91961aea7ee7af",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-03T11:15:00.000+02:00",
+      "window_end": "2023-09-03T13:00:00.000+02:00",
+      "cut_off_time": "2023-09-02T13:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e006205e91961aea7ee7af"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e006205e91961aea7ee7ae",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-03T12:00:00.000+02:00",
+      "window_end": "2023-09-03T13:00:00.000+02:00",
+      "cut_off_time": "2023-09-02T13:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e006205e91961aea7ee7a1",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-03T14:45:00.000+02:00",
+      "window_end": "2023-09-03T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-02T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e006205e91961aea7ee7a1"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e006205e91961aea7ee7a0",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-03T15:30:00.000+02:00",
+      "window_end": "2023-09-03T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-02T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e006205e91961aea7ee7a5",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-03T17:30:00.000+02:00",
+      "window_end": "2023-09-03T19:15:00.000+02:00",
+      "cut_off_time": "2023-09-02T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e006205e91961aea7ee7a5"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e006205e91961aea7ee7a4",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-03T18:15:00.000+02:00",
+      "window_end": "2023-09-03T19:15:00.000+02:00",
+      "cut_off_time": "2023-09-02T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e157965e91961aea7eeadb",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-04T08:00:00.000+02:00",
+      "window_end": "2023-09-04T09:45:00.000+02:00",
+      "cut_off_time": "2023-09-03T13:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e157965e91961aea7eeadb"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e157965e91961aea7eeada",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-04T08:45:00.000+02:00",
+      "window_end": "2023-09-04T09:45:00.000+02:00",
+      "cut_off_time": "2023-09-03T13:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e157965e91961aea7eeace",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-04T18:15:00.000+02:00",
+      "window_end": "2023-09-04T19:15:00.000+02:00",
+      "cut_off_time": "2023-09-03T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e2a90e3fe3a437f0eb0f36",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-05T10:45:00.000+02:00",
+      "window_end": "2023-09-05T12:30:00.000+02:00",
+      "cut_off_time": "2023-09-04T13:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e2a90e3fe3a437f0eb0f36"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e2a90e3fe3a437f0eb0f35",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-05T11:30:00.000+02:00",
+      "window_end": "2023-09-05T12:30:00.000+02:00",
+      "cut_off_time": "2023-09-04T13:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e2a90d3fe3a437f0eb0f2a",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-05T14:45:00.000+02:00",
+      "window_end": "2023-09-05T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-04T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e2a90d3fe3a437f0eb0f2a"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e2a90d3fe3a437f0eb0f29",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-05T15:30:00.000+02:00",
+      "window_end": "2023-09-05T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-04T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e2a90d3fe3a437f0eb0f26",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-05T20:15:00.000+02:00",
+      "window_end": "2023-09-05T22:00:00.000+02:00",
+      "cut_off_time": "2023-09-04T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e2a90d3fe3a437f0eb0f26"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e2a90d3fe3a437f0eb0f25",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-05T21:00:00.000+02:00",
+      "window_end": "2023-09-05T22:00:00.000+02:00",
+      "cut_off_time": "2023-09-04T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e3fa8bd01b0f2489ebfcef",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-06T10:45:00.000+02:00",
+      "window_end": "2023-09-06T12:30:00.000+02:00",
+      "cut_off_time": "2023-09-05T13:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e3fa8bd01b0f2489ebfcef"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e3fa8bd01b0f2489ebfcee",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-06T11:30:00.000+02:00",
+      "window_end": "2023-09-06T12:30:00.000+02:00",
+      "cut_off_time": "2023-09-05T13:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e3fa8ad01b0f2489ebfcdf",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-06T17:30:00.000+02:00",
+      "window_end": "2023-09-06T19:15:00.000+02:00",
+      "cut_off_time": "2023-09-05T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e3fa8ad01b0f2489ebfcdf"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e3fa8ad01b0f2489ebfcde",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-06T18:15:00.000+02:00",
+      "window_end": "2023-09-06T19:15:00.000+02:00",
+      "cut_off_time": "2023-09-05T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e3fa8ad01b0f2489ebfce3",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-06T20:15:00.000+02:00",
+      "window_end": "2023-09-06T22:00:00.000+02:00",
+      "cut_off_time": "2023-09-05T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e3fa8ad01b0f2489ebfce3"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e3fa8ad01b0f2489ebfce2",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-06T21:00:00.000+02:00",
+      "window_end": "2023-09-06T22:00:00.000+02:00",
+      "cut_off_time": "2023-09-05T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e54c0d0a1c734a4e1b2130",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-07T08:00:00.000+02:00",
+      "window_end": "2023-09-07T09:45:00.000+02:00",
+      "cut_off_time": "2023-09-06T13:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e54c0d0a1c734a4e1b2130"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e54c0d0a1c734a4e1b212f",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-07T08:45:00.000+02:00",
+      "window_end": "2023-09-07T09:45:00.000+02:00",
+      "cut_off_time": "2023-09-06T13:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e54c0c0a1c734a4e1b2120",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-07T14:45:00.000+02:00",
+      "window_end": "2023-09-07T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-06T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e54c0c0a1c734a4e1b2120"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e54c0c0a1c734a4e1b211f",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-07T15:30:00.000+02:00",
+      "window_end": "2023-09-07T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-06T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e54c0c0a1c734a4e1b2124",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-07T17:30:00.000+02:00",
+      "window_end": "2023-09-07T19:15:00.000+02:00",
+      "cut_off_time": "2023-09-06T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e54c0c0a1c734a4e1b2124"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e54c0c0a1c734a4e1b2123",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-07T18:15:00.000+02:00",
+      "window_end": "2023-09-07T19:15:00.000+02:00",
+      "cut_off_time": "2023-09-06T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e69d9e0a1c734a4e1b285c",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-08T10:45:00.000+02:00",
+      "window_end": "2023-09-08T12:30:00.000+02:00",
+      "cut_off_time": "2023-09-07T13:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e69d9e0a1c734a4e1b285c"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e69d9e0a1c734a4e1b285b",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-08T11:30:00.000+02:00",
+      "window_end": "2023-09-08T12:30:00.000+02:00",
+      "cut_off_time": "2023-09-07T13:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e69d9e0a1c734a4e1b284f",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-08T21:00:00.000+02:00",
+      "window_end": "2023-09-08T22:00:00.000+02:00",
+      "cut_off_time": "2023-09-07T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    }
+  ],
+  "selected_slot": {
+    "slot_id": "64deb48e5e91961aea7ee0b0",
+    "state": "IMPLICIT"
+  },
+  "slot_selector_message": {
+    "pml_version": "0.1.0",
+    "component": {
+      "type": "STACK",
+      "axis": "HORIZONTAL",
+      "alignment": "CENTER",
+      "spacing": "16",
+      "children": [
+        {
+          "type": "CONTAINER",
+          "border_width": 1,
+          "border_radius": 16,
+          "border_color": "PAPERGREY1",
+          "background_color": "PAPERGREY1",
+          "width": 32,
+          "height": 32,
+          "child": {
+            "type": "STACK",
+            "alignment": "CENTER",
+            "padding_vertical": 4,
+            "children": [
+              {
+                "type": "IMAGE",
+                "source": {
+                  "id": "icon"
+                },
+                "width": 24,
+                "height": 24,
+                "resize_mode": "CONTAIN"
+              }
+            ]
+          }
+        },
+        {
+          "type": "STACK",
+          "axis": "HORIZONTAL",
+          "alignment": "CENTER",
+          "distribution": "FILL",
+          "children": [
+            {
+              "type": "RICH_TEXT",
+              "text_type": "TINY_TEXT",
+              "text_alignment": "LEFT",
+              "markdown": "#(GREEN1)**Groenste keuze voor jouw buurt**#(GREEN1)"
+            }
+          ]
+        }
+      ]
+    },
+    "images": {
+      "icon": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+    },
+    "tracking_attributes": {
+      "template_variant_id": "slot-selector.markdown-block",
+      "entity_ids": []
+    }
+  },
+  "total_count": 16,
+  "total_price": 3886,
+  "checkout_total_price": 3886,
+  "total_deposit": 95,
+  "mts": 1693575984449,
+  "deposit_breakdown": [
+    {
+      "type": "DEFAULT",
+      "value": 60,
+      "count": 1
+    },
+    {
+      "type": "BAG",
+      "value": 35,
+      "count": 1
+    }
+  ],
+  "decorator_overrides": {
+    "s1005863": [
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "1 stuk"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 3
+      }
+    ],
+    "s1013971": [
+      {
+        "type": "FRESH_LABEL",
+        "period": "P8D"
+      },
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "8 x 65 ml"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      }
+    ],
+    "s1008752": [
+      {
+        "type": "FRESH_LABEL",
+        "period": "P3D"
+      },
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "400 gram"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      }
+    ],
+    "s1011483": [
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "400 gram"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      },
+      {
+        "type": "PRODUCT_SIZE",
+        "text": "XL"
+      }
+    ],
+    "s1017857": [
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "13 stuks"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      }
+    ],
+    "s1003403": [
+      {
+        "type": "FRESH_LABEL",
+        "period": "P7D"
+      },
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "10 stuks M/L"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      },
+      {
+        "type": "BRAND_TIER",
+        "tier": "DELI",
+        "origin": "Vaassen"
+      },
+      {
+        "type": "PRODUCT_CHARACTERISTICS",
+        "characteristics": [
+          {
+            "type": "ANIMAL_WELFARE",
+            "score": 3,
+            "rating": null,
+            "baby_month": null
+          }
+        ]
+      }
+    ],
+    "s1016998": [
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "360 gram"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      }
+    ],
+    "s1000092": [
+      {
+        "type": "FRESH_LABEL",
+        "period": "P4D"
+      },
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "6 of 7 stuks (850 gram)"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      }
+    ],
+    "s1010576": [
+      {
+        "type": "FRESH_LABEL",
+        "period": "P4D"
+      },
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "2 liter"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      },
+      {
+        "type": "PRODUCT_SIZE",
+        "text": "XL"
+      }
+    ],
+    "s1009421": [
+      {
+        "type": "FRESH_LABEL",
+        "period": "P8D"
+      },
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "1 liter"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 2
+      }
+    ],
+    "s1001333": [
+      {
+        "type": "FRESH_LABEL",
+        "period": "P5D"
+      },
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "3 stuks"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      }
+    ],
+    "s1018191": [
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "220 ml"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      }
+    ],
+    "s1063755": [
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "200 stuks"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      },
+      {
+        "type": "PRODUCT_STATUSES",
+        "statuses": [
+          {
+            "text": "Nieuw",
+            "appearance_type": "BADGE",
+            "style": {
+              "background_color": "GREEN5",
+              "text_color": "GREEN1"
+            }
+          }
+        ]
+      }
+    ],
+    "s1001524": [
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "6 x 300 ml"
+      },
+      {
+        "type": "VALIDITY_LABEL",
+        "valid_until": "2023-09-03"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      },
+      {
+        "type": "PROMO",
+        "text": "2e halve prijs"
+      }
+    ]
+  }
+}

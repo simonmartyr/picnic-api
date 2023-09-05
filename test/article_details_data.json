@@ -1,0 +1,55 @@
+{
+  "type": "ARTICLE_DETAILS",
+  "id": "s1005863",
+  "name": "Koffiecups recyclezak",
+  "description": {
+    "main": "**Recyclen doen we samen** ♻️\nWist je dat je bij ons een Nespresso-recyclezak kunt bestellen om je cupjes in weg te gooien? Als-ie vol is kun je hem meegeven aan een van onze Runners – brengen wij 'm naar de juiste plek. Mooi meegenomen!",
+    "extension": null
+  },
+  "images": [
+    {
+      "image_id": "3ac131bfe3fa406f5ad46b1377bf539421129fb9a1808210d29fe2f2db0a3de1"
+    }
+  ],
+  "labels": {
+    "brand_tier": null,
+    "status": [],
+    "characteristics": [],
+    "size": null,
+    "promo": null
+  },
+  "price_info": {
+    "price": 5,
+    "price_color": null,
+    "original_price": null,
+    "deposit": null,
+    "base_price_text": null
+  },
+  "unit_quantity": "1 stuk",
+  "max_order_quantity": 50,
+  "category_link": "nl.picnic-supermarkt://categories/21738/l2/21885/l3/22592",
+  "allergies": {
+    "allergy_contains": [],
+    "allergy_may_contain": [],
+    "allergy_text": null
+  },
+  "highlights": [
+    {
+      "icon": "STARS",
+      "text": "Recycle gebruikte **aluminium cups**",
+      "action": null
+    },
+    {
+      "icon": "STORAGE",
+      "text": "Ruimte voor wel **200 stuks**",
+      "action": null
+    },
+    {
+      "icon": "SUSTAINABLE",
+      "text": "**Duurzaam** geproduceerd",
+      "action": null
+    }
+  ],
+  "mood_gallery": [],
+  "misc": []
+}

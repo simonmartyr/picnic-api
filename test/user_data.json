@@ -1,0 +1,59 @@
+{
+  "user_id": "999-999-9999",
+  "firstname": "Simon",
+  "lastname": "Martyr",
+  "address": {
+    "house_number": 1,
+    "house_number_ext": "",
+    "postcode": "1000 LA",
+    "street": "Cool Street",
+    "city": "Amsterdam"
+  },
+  "phone": "+31999999999",
+  "contact_email": "simonmartyr@coolmail.co.uk",
+  "feature_toggles": [],
+  "push_subscriptions": [
+    {
+      "list_id": "PUSH_MISC",
+      "subscribed": true,
+      "name": "Updates"
+    }
+  ],
+  "subscriptions": [
+    {
+      "list_id": "MISC",
+      "subscribed": false,
+      "name": "Overige e-mails"
+    },
+    {
+      "list_id": "WEEKLY_DEALS",
+      "subscribed": true,
+      "name": "Acties"
+    }
+  ],
+  "customer_type": "CONSUMER",
+  "household_details": {
+    "adults": 1,
+    "children": 0,
+    "cats": 0,
+    "dogs": 0,
+    "author": "USER",
+    "last_edit_ts": 1561045261072
+  },
+  "check_general_consent": false,
+  "placed_order": true,
+  "received_delivery": true,
+  "total_deliveries": 1,
+  "completed_deliveries": 1,
+  "consent_decisions": {
+    "MISC_COMMERCIAL_ADS": false,
+    "MISC_COMMERCIAL_EMAILS": false,
+    "MISC_COMMERCIAL_MESSAGES": false,
+    "MISC_READ_ADVERTISING_ID": true,
+    "MISC_WHATS_APP_COMMUNICATION": false,
+    "NESPRESSO_DATA_SHARING": true,
+    "PERSONALIZED_RANKING_CONSENT": true,
+    "PURCHASES_CATEGORY_CONSENT": true,
+    "WEEKLY_COMMERCIAL_EMAILS": true
+  }
+}

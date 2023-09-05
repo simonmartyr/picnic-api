@@ -138,6 +138,8 @@ func (c *Client) get(url string, result interface{}) error {
 		return httpErr
 	}
 	defer res.Body.Close()
+	//bs, _ := io.ReadAll(res.Body)
+	//fmt.Println(string(bs))
 	jsonErr := json.NewDecoder(res.Body).Decode(result)
 	if jsonErr != nil {
 		return jsonErr
@@ -168,12 +170,13 @@ func (c *Client) post(url string, body any, result interface{}) error {
 }
 
 func (c *Client) GetArticleImage(articleImageId string, size ImageSize) (*image.Image, error) {
-	imageUrl := "https://storefront-prod.nl.picnicinternational.com/static/images/" +
+	imageBaseUrl := strings.Split(c.baseURL, "api")
+	imageUrl := imageBaseUrl[0] +
 		articleImageId +
 		"/" +
 		size.String() +
 		".png"
-	res, resErr := http.Get(imageUrl)
+	res, resErr := c.http.Get(imageUrl)
 	if resErr != nil {
 		return nil, resErr
 	}
