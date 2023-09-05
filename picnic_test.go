@@ -1,6 +1,7 @@
 package picnic
 
 import (
+	"github.com/joho/godotenv"
 	"io"
 	"net/http"
 	"net/http/httptest"
@@ -208,5 +209,17 @@ func TestNew_With_Token(t *testing.T) {
 	c := New(&http.Client{}, WithToken(token))
 	if c.token != token {
 		t.Error("Invalid token")
+	}
+}
+
+func Test_Integration(t *testing.T) {
+	godotenv.Load()
+	c := New(&http.Client{},
+		WithUsername(os.Getenv("USERNAME")),
+		WithHashedPassword(os.Getenv("SECRET")),
+	)
+	authErr := c.Authenticate()
+	if authErr != nil {
+		t.Error("auth failed")
 	}
 }

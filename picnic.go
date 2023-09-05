@@ -124,6 +124,9 @@ func (c *Client) Authenticate() error {
 	if responseErr != nil {
 		return responseErr
 	}
+	if response.StatusCode != http.StatusOK {
+		return c.parseError(response)
+	}
 	c.token = response.Header.Get("x-picnic-auth")
 	return nil
 }
