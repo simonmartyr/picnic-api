@@ -1,5 +1,5 @@
 # Picnic-API
-[![Go Coverage](https://github.com/simonmartyr/picnic-api/wiki/coverage.svg)](https://raw.githack.com/wiki/simonmartyr/picnic-api/coverage.html)
+![workflow](https://github.com/simonmartyr/picnic-api/actions/workflows/tests.yaml/badge.svg)
 
 This is an (unofficial) Go wrapper for working with the Picnic WebAPI.
 
