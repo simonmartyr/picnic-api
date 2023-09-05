@@ -1,0 +1,79 @@
+[
+  {
+    "type": "SEARCH_SUGGESTION",
+    "id": "pepper",
+    "links": [
+      {
+        "type": "SEARCH",
+        "href": "https://storefront-prod.nl.picnicinternational.com/api/0/search?search_term=pepper"
+      }
+    ],
+    "suggestion": "pepper"
+  },
+  {
+    "type": "SEARCH_SUGGESTION",
+    "id": "peppermint",
+    "links": [
+      {
+        "type": "SEARCH",
+        "href": "https://storefront-prod.nl.picnicinternational.com/api/0/search?search_term=peppermint"
+      }
+    ],
+    "suggestion": "peppermint"
+  },
+  {
+    "type": "SEARCH_SUGGESTION",
+    "id": "chili pepper",
+    "links": [
+      {
+        "type": "SEARCH",
+        "href": "https://storefront-prod.nl.picnicinternational.com/api/0/search?search_term=chili+pepper"
+      }
+    ],
+    "suggestion": "chili pepper"
+  },
+  {
+    "type": "SEARCH_SUGGESTION",
+    "id": "pepper chips",
+    "links": [
+      {
+        "type": "SEARCH",
+        "href": "https://storefront-prod.nl.picnicinternational.com/api/0/search?search_term=pepper+chips"
+      }
+    ],
+    "suggestion": "pepper chips"
+  },
+  {
+    "type": "SEARCH_SUGGESTION",
+    "id": "dr pepper",
+    "links": [
+      {
+        "type": "SEARCH",
+        "href": "https://storefront-prod.nl.picnicinternational.com/api/0/search?search_term=dr+pepper"
+      }
+    ],
+    "suggestion": "dr pepper"
+  },
+  {
+    "type": "SEARCH_SUGGESTION",
+    "id": "doritos tortillachips chili pepper",
+    "links": [
+      {
+        "type": "SEARCH",
+        "href": "https://storefront-prod.nl.picnicinternational.com/api/0/search?search_term=doritos+tortillachips+chili+pepper"
+      }
+    ],
+    "suggestion": "doritos tortillachips chili pepper"
+  },
+  {
+    "type": "SEARCH_SUGGESTION",
+    "id": "peppermint xl",
+    "links": [
+      {
+        "type": "SEARCH",
+        "href": "https://storefront-prod.nl.picnicinternational.com/api/0/search?search_term=peppermint+xl"
+      }
+    ],
+    "suggestion": "peppermint xl"
+  }
+]
