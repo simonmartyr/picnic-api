@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "AUTH_ERROR",
+    "message": "Could not authenticate user",
+    "details": {}
+  }
+}

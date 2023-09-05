@@ -5,6 +5,7 @@ type Order struct {
 	Id                 string         `json:"id"`
 	Items              []OrderLine    `json:"items"`
 	DeliverySlots      []DeliverySlot `json:"delivery_slots"`
+	SelectedSlot       SelectedSlot   `json:"selected_slot"`
 	TotalCount         int            `json:"total_count"`
 	TotalPrice         int            `json:"total_price"`
 	CheckoutTotalPrice int            `json:"checkout_total_price"`

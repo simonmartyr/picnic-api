@@ -83,6 +83,17 @@ func TestAuthenticate(t *testing.T) {
 	}
 }
 
+func TestGetArticleImageUrl(t *testing.T) {
+	articleId := "s1005863"
+	expectedUrl := "https://storefront-prod.nl.picnicinternational.com/static/images/s1005863/medium.png"
+	c := New(&http.Client{})
+
+	pictureUrl := c.GetArticleImageUrl(articleId, Medium)
+	if pictureUrl != expectedUrl {
+		t.Error("Invalid url")
+	}
+}
+
 func TestGetArticleImage(t *testing.T) {
 	articleId := "s1005863"
 	c, s := testClientImage(http.StatusOK, "test/augurken.png")
@@ -93,5 +104,109 @@ func TestGetArticleImage(t *testing.T) {
 	}
 	if res == nil {
 		t.Error("Invalid Image")
+	}
+}
+
+func TestGetArticleImage_NotFound(t *testing.T) {
+	articleId := "s1005863"
+	c, s := testClientFile(http.StatusNotFound, "test/error.json")
+	defer s.Close()
+	res, err := c.GetArticleImage(articleId, Medium)
+	if res != nil {
+		t.Error("Unexpected result")
+	}
+	if err == nil {
+		t.Error("No error produced")
+	}
+}
+
+func TestNew(t *testing.T) {
+	c := New(&http.Client{})
+	if c.baseURL != "https://storefront-prod.nl.picnicinternational.com/api/17" {
+		t.Error("Invalid baseurl")
+	}
+	if c.version != "17" {
+		t.Error("Invalid version")
+	}
+	if c.country != "nl" {
+		t.Error("Invalid version")
+	}
+}
+
+func TestNew_With_Version(t *testing.T) {
+	version := "19"
+	c := New(&http.Client{}, WithVersion(version))
+	if c.baseURL != "https://storefront-prod.nl.picnicinternational.com/api/19" {
+		t.Error("Invalid baseurl")
+	}
+	if c.version != version {
+		t.Error("Invalid version")
+	}
+}
+
+func TestNew_With_Country(t *testing.T) {
+	country := "be"
+	c := New(&http.Client{}, WithCountry(country))
+	if c.baseURL != "https://storefront-prod.be.picnicinternational.com/api/17" {
+		t.Error("Invalid baseurl")
+	}
+	if c.country != country {
+		t.Error("Invalid version")
+	}
+}
+
+func TestNew_With_BaseUrl(t *testing.T) {
+	bespokeUrl := "https://whateveryourwant/api/17"
+	c := New(&http.Client{}, WithBaseUrl(bespokeUrl))
+	if c.baseURL != bespokeUrl {
+		t.Error("Invalid baseurl")
+	}
+}
+
+func TestNew_With_Country_And_Version(t *testing.T) {
+	country := "be"
+	version := "19"
+	c := New(&http.Client{}, WithCountry(country), WithVersion(version))
+	if c.baseURL != "https://storefront-prod.be.picnicinternational.com/api/19" {
+		t.Error("Invalid baseurl")
+	}
+	if c.version != version {
+		t.Error("Invalid version")
+	}
+	if c.country != country {
+		t.Error("Invalid version")
+	}
+}
+
+func TestNew_With_Username(t *testing.T) {
+	email := "johnny@jojo.com"
+	c := New(&http.Client{}, WithUsername(email))
+	if c.username != email {
+		t.Error("Invalid email")
+	}
+}
+
+func TestNew_With_Password(t *testing.T) {
+	password := "examplePass"
+	expected := "8ba9442c2dc0e616d26b5ab84162ed48"
+	c := New(&http.Client{}, WithPassword(password))
+	if c.secret != expected {
+		t.Error("Invalid secret")
+	}
+}
+
+func TestNew_With_Hashed_Password(t *testing.T) {
+	hashed := "8ba9442c2dc0e616d26b5ab84162ed48"
+	c := New(&http.Client{}, WithHashedPassword(hashed))
+	if c.secret != hashed {
+		t.Error("Invalid secret")
+	}
+}
+
+func TestNew_With_Token(t *testing.T) {
+	token := "tokenValue"
+	c := New(&http.Client{}, WithToken(token))
+	if c.token != token {
+		t.Error("Invalid token")
 	}
 }

@@ -5,12 +5,15 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"encoding/json"
+	"fmt"
 	"image"
 	"image/png"
+	"io"
 	"net/http"
 	"strings"
 )
 
+// Client the picnic api client it is recommended to use the New method to create a new instance
 type Client struct {
 	http     *http.Client
 	baseURL  string
@@ -23,6 +26,8 @@ type Client struct {
 
 type ClientOption func(client *Client)
 
+// WithVersion specify the particular version of the picnic API you wish to use.
+// The default is set to 17
 func WithVersion(version string) ClientOption {
 	return func(client *Client) {
 		client.baseURL = makeUrl(client.country, version)
@@ -30,18 +35,24 @@ func WithVersion(version string) ClientOption {
 	}
 }
 
+// WithToken Provide your own bearer token to be used as the authentication header
+// if Authenticate or Logout is called this value with altered.
 func WithToken(token string) ClientOption {
 	return func(client *Client) {
 		client.token = token
 	}
 }
 
+// WithBaseUrl replaces the full url for API calls. Cannot be used in combination with WithCountry
+// And WithVersion
 func WithBaseUrl(url string) ClientOption {
 	return func(client *Client) {
 		client.baseURL = url
 	}
 }
 
+// WithCountry specify the particular country you wish to use.
+// The default is set to nl
 func WithCountry(countryCode string) ClientOption {
 	return func(client *Client) {
 		client.baseURL = makeUrl(strings.ToLower(countryCode), client.version)
@@ -49,12 +60,14 @@ func WithCountry(countryCode string) ClientOption {
 	}
 }
 
-func WithUserName(username string) ClientOption {
+// WithUsername specify your username to be used for authentication.
+func WithUsername(username string) ClientOption {
 	return func(client *Client) {
 		client.username = username
 	}
 }
 
+// WithPassword specify your password to be used for authentication.
 func WithPassword(password string) ClientOption {
 	return func(client *Client) {
 		client.secret = md5Hash(password)
@@ -66,12 +79,14 @@ func md5Hash(password string) string {
 	return hex.EncodeToString(hash[:])
 }
 
+// WithHashedPassword specify your md5 hashed password to be used for authentication.
 func WithHashedPassword(hashedPassword string) ClientOption {
 	return func(client *Client) {
 		client.secret = hashedPassword
 	}
 }
 
+// New Create a new instance of the picnic api client
 func New(client *http.Client, opts ...ClientOption) *Client {
 	c := &Client{
 		http:    client,
@@ -87,7 +102,10 @@ func New(client *http.Client, opts ...ClientOption) *Client {
 	return c
 }
 
-func (c *Client) Authenticate() (err error) {
+// Authenticate using the configured username and secret the client will attempt ot authenticate
+// Upon success the access token is stored in the Client.Token
+// To leverage the token, calls to picnic endpoints expect the token to be added as a header named 'x-picnic-auth'
+func (c *Client) Authenticate() error {
 	authenticationUrl := c.baseURL + "/user/login"
 	requestBody, jsonErr := json.Marshal(LoginInput{
 		Key:      c.username,
@@ -110,21 +128,39 @@ func (c *Client) Authenticate() (err error) {
 	return nil
 }
 
-func (c *Client) Logout() (err error) {
-	logoutUrl := c.baseURL + "/user/login"
-	request, requestErr := http.NewRequest("POST", logoutUrl, nil)
-	if requestErr != nil {
-		return requestErr
+// Logout assuming there is a valid session this endpoint will request the termination of the session and
+// clear the token from the client.
+func (c *Client) Logout() error {
+	logoutUrl := c.baseURL + "/user/logout"
+	err := c.post(logoutUrl, nil, nil)
+	if err != nil {
+		return err
 	}
-	configureHeaders(request, c.token)
-	res, httpErr := c.http.Do(request)
-	c.post(logoutUrl, nil, nil)
-	if httpErr != nil {
-		return httpErr
-	}
-	defer res.Body.Close()
 	c.token = ""
 	return nil
+}
+
+func (c *Client) parseError(resp *http.Response) error {
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return err
+	}
+
+	if len(body) == 0 {
+		return fmt.Errorf("picnic-api: produced an error with code %d: %s empty error", resp.StatusCode, http.StatusText(resp.StatusCode))
+	}
+
+	buf := bytes.NewBuffer(body)
+
+	var apiError struct {
+		Error PicnicError `json:"error"`
+	}
+
+	jsonErr := json.NewDecoder(buf).Decode(&apiError)
+	if jsonErr != nil {
+		return fmt.Errorf("picnic-api: produced an [%d] response with an unprocessable error payload [%s]", resp.StatusCode, body)
+	}
+	return fmt.Errorf("picnic-api: produced an error with code [%s] and message [%s]", apiError.Error.Code, apiError.Error.Message)
 }
 
 func (c *Client) get(url string, result interface{}) error {
@@ -138,6 +174,9 @@ func (c *Client) get(url string, result interface{}) error {
 		return httpErr
 	}
 	defer res.Body.Close()
+	if res.StatusCode != http.StatusOK {
+		return c.parseError(res)
+	}
 	//bs, _ := io.ReadAll(res.Body)
 	//fmt.Println(string(bs))
 	jsonErr := json.NewDecoder(res.Body).Decode(result)
@@ -169,16 +208,20 @@ func (c *Client) post(url string, body any, result interface{}) error {
 	return nil
 }
 
-func (c *Client) GetArticleImage(articleImageId string, size ImageSize) (*image.Image, error) {
+// GetArticleImageUrl generates the static url for a given article image.
+func (c *Client) GetArticleImageUrl(articleImageId string, size ImageSize) string {
 	imageBaseUrl := strings.Split(c.baseURL, "api")
-	imageUrl := imageBaseUrl[0] +
-		articleImageId +
-		"/" +
-		size.String() +
-		".png"
-	res, resErr := c.http.Get(imageUrl)
+	return fmt.Sprintf("%sstatic/images/%s/%s.png", imageBaseUrl[0], articleImageId, size.String())
+}
+
+// GetArticleImage retrieves and decodes the png image of a given article.
+func (c *Client) GetArticleImage(articleImageId string, size ImageSize) (*image.Image, error) {
+	res, resErr := c.http.Get(c.GetArticleImageUrl(articleImageId, size))
 	if resErr != nil {
 		return nil, resErr
+	}
+	if res.StatusCode != http.StatusOK {
+		return nil, c.parseError(res)
 	}
 	articleImage, imageErr := png.Decode(res.Body)
 	if imageErr != nil {
@@ -188,10 +231,7 @@ func (c *Client) GetArticleImage(articleImageId string, size ImageSize) (*image.
 }
 
 func makeUrl(countryCode string, version string) string {
-	return "https://storefront-prod." +
-		countryCode +
-		".picnicinternational.com/api/" +
-		version
+	return fmt.Sprintf("https://storefront-prod.%s.picnicinternational.com/api/%s", countryCode, version)
 }
 
 func configureHeaders(request *http.Request, token string) {

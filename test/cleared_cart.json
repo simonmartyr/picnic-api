@@ -1,0 +1,1014 @@
+{
+  "type": "ORDER",
+  "id": "shopping_cart",
+  "items": [],
+  "delivery_slots": [
+    {
+      "slot_id": "64deb48e5e91961aea7ee0b1",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-02T14:45:00.000+02:00",
+      "window_end": "2023-09-02T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-01T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64deb48e5e91961aea7ee0b1"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64deb48e5e91961aea7ee0b0",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-02T15:30:00.000+02:00",
+      "window_end": "2023-09-02T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-01T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e006205e91961aea7ee7af",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-03T11:15:00.000+02:00",
+      "window_end": "2023-09-03T13:00:00.000+02:00",
+      "cut_off_time": "2023-09-02T13:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e006205e91961aea7ee7af"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e006205e91961aea7ee7ae",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-03T12:00:00.000+02:00",
+      "window_end": "2023-09-03T13:00:00.000+02:00",
+      "cut_off_time": "2023-09-02T13:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e006205e91961aea7ee7a1",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-03T14:45:00.000+02:00",
+      "window_end": "2023-09-03T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-02T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e006205e91961aea7ee7a1"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e006205e91961aea7ee7a0",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-03T15:30:00.000+02:00",
+      "window_end": "2023-09-03T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-02T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e006205e91961aea7ee7a5",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-03T17:30:00.000+02:00",
+      "window_end": "2023-09-03T19:15:00.000+02:00",
+      "cut_off_time": "2023-09-02T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e006205e91961aea7ee7a5"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e006205e91961aea7ee7a4",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-03T18:15:00.000+02:00",
+      "window_end": "2023-09-03T19:15:00.000+02:00",
+      "cut_off_time": "2023-09-02T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e157965e91961aea7eeadb",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-04T08:00:00.000+02:00",
+      "window_end": "2023-09-04T09:45:00.000+02:00",
+      "cut_off_time": "2023-09-03T13:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e157965e91961aea7eeadb"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e157965e91961aea7eeada",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-04T08:45:00.000+02:00",
+      "window_end": "2023-09-04T09:45:00.000+02:00",
+      "cut_off_time": "2023-09-03T13:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e157965e91961aea7eeace",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-04T18:15:00.000+02:00",
+      "window_end": "2023-09-04T19:15:00.000+02:00",
+      "cut_off_time": "2023-09-03T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e2a90e3fe3a437f0eb0f36",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-05T10:45:00.000+02:00",
+      "window_end": "2023-09-05T12:30:00.000+02:00",
+      "cut_off_time": "2023-09-04T13:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e2a90e3fe3a437f0eb0f36"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e2a90e3fe3a437f0eb0f35",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-05T11:30:00.000+02:00",
+      "window_end": "2023-09-05T12:30:00.000+02:00",
+      "cut_off_time": "2023-09-04T13:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e2a90d3fe3a437f0eb0f2a",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-05T14:45:00.000+02:00",
+      "window_end": "2023-09-05T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-04T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e2a90d3fe3a437f0eb0f2a"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e2a90d3fe3a437f0eb0f29",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-05T15:30:00.000+02:00",
+      "window_end": "2023-09-05T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-04T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e2a90d3fe3a437f0eb0f26",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-05T20:15:00.000+02:00",
+      "window_end": "2023-09-05T22:00:00.000+02:00",
+      "cut_off_time": "2023-09-04T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e2a90d3fe3a437f0eb0f26"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e2a90d3fe3a437f0eb0f25",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-05T21:00:00.000+02:00",
+      "window_end": "2023-09-05T22:00:00.000+02:00",
+      "cut_off_time": "2023-09-04T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e3fa8bd01b0f2489ebfcef",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-06T10:45:00.000+02:00",
+      "window_end": "2023-09-06T12:30:00.000+02:00",
+      "cut_off_time": "2023-09-05T13:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e3fa8bd01b0f2489ebfcef"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e3fa8bd01b0f2489ebfcee",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-06T11:30:00.000+02:00",
+      "window_end": "2023-09-06T12:30:00.000+02:00",
+      "cut_off_time": "2023-09-05T13:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e3fa8ad01b0f2489ebfcdf",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-06T17:30:00.000+02:00",
+      "window_end": "2023-09-06T19:15:00.000+02:00",
+      "cut_off_time": "2023-09-05T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e3fa8ad01b0f2489ebfcdf"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e3fa8ad01b0f2489ebfcde",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-06T18:15:00.000+02:00",
+      "window_end": "2023-09-06T19:15:00.000+02:00",
+      "cut_off_time": "2023-09-05T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e3fa8ad01b0f2489ebfce3",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-06T20:15:00.000+02:00",
+      "window_end": "2023-09-06T22:00:00.000+02:00",
+      "cut_off_time": "2023-09-05T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e3fa8ad01b0f2489ebfce3"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e3fa8ad01b0f2489ebfce2",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-06T21:00:00.000+02:00",
+      "window_end": "2023-09-06T22:00:00.000+02:00",
+      "cut_off_time": "2023-09-05T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e54c0d0a1c734a4e1b2130",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-07T08:00:00.000+02:00",
+      "window_end": "2023-09-07T09:45:00.000+02:00",
+      "cut_off_time": "2023-09-06T13:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e54c0d0a1c734a4e1b2130"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e54c0d0a1c734a4e1b212f",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-07T08:45:00.000+02:00",
+      "window_end": "2023-09-07T09:45:00.000+02:00",
+      "cut_off_time": "2023-09-06T13:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e54c0c0a1c734a4e1b2120",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-07T14:45:00.000+02:00",
+      "window_end": "2023-09-07T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-06T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e54c0c0a1c734a4e1b2120"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e54c0c0a1c734a4e1b211f",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-07T15:30:00.000+02:00",
+      "window_end": "2023-09-07T16:30:00.000+02:00",
+      "cut_off_time": "2023-09-06T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e54c0c0a1c734a4e1b2124",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-07T17:30:00.000+02:00",
+      "window_end": "2023-09-07T19:15:00.000+02:00",
+      "cut_off_time": "2023-09-06T23:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e54c0c0a1c734a4e1b2124"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e54c0c0a1c734a4e1b2123",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-07T18:15:00.000+02:00",
+      "window_end": "2023-09-07T19:15:00.000+02:00",
+      "cut_off_time": "2023-09-06T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e69d9e0a1c734a4e1b285c",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-08T10:45:00.000+02:00",
+      "window_end": "2023-09-08T12:30:00.000+02:00",
+      "cut_off_time": "2023-09-07T13:00:00.000+02:00",
+      "icon": {
+        "pml_version": "0.1.0",
+        "component": {
+          "type": "IMAGE",
+          "source": {
+            "id": "image-id"
+          },
+          "width": 24,
+          "height": 24,
+          "resize_mode": "CONTAIN"
+        },
+        "images": {
+          "image-id": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+        },
+        "tracking_attributes": {
+          "template_variant_id": "slot-selector-item-icon.image",
+          "entity_ids": [
+            "64e69d9e0a1c734a4e1b285c"
+          ]
+        }
+      },
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000,
+      "window_presentation_color": "GREEN1"
+    },
+    {
+      "slot_id": "64e69d9e0a1c734a4e1b285b",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-08T11:30:00.000+02:00",
+      "window_end": "2023-09-08T12:30:00.000+02:00",
+      "cut_off_time": "2023-09-07T13:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    },
+    {
+      "slot_id": "64e69d9e0a1c734a4e1b284f",
+      "hub_id": "DVT",
+      "fc_id": "FCA",
+      "window_start": "2023-09-08T21:00:00.000+02:00",
+      "window_end": "2023-09-08T22:00:00.000+02:00",
+      "cut_off_time": "2023-09-07T23:00:00.000+02:00",
+      "is_available": true,
+      "selected": false,
+      "reserved": false,
+      "minimum_order_value": 4000
+    }
+  ],
+  "selected_slot": {
+    "slot_id": "64deb48e5e91961aea7ee0b0",
+    "state": "IMPLICIT"
+  },
+  "slot_selector_message": {
+    "pml_version": "0.1.0",
+    "component": {
+      "type": "STACK",
+      "axis": "HORIZONTAL",
+      "alignment": "CENTER",
+      "spacing": "16",
+      "children": [
+        {
+          "type": "CONTAINER",
+          "border_width": 1,
+          "border_radius": 16,
+          "border_color": "PAPERGREY1",
+          "background_color": "PAPERGREY1",
+          "width": 32,
+          "height": 32,
+          "child": {
+            "type": "STACK",
+            "alignment": "CENTER",
+            "padding_vertical": 4,
+            "children": [
+              {
+                "type": "IMAGE",
+                "source": {
+                  "id": "icon"
+                },
+                "width": 24,
+                "height": 24,
+                "resize_mode": "CONTAIN"
+              }
+            ]
+          }
+        },
+        {
+          "type": "STACK",
+          "axis": "HORIZONTAL",
+          "alignment": "CENTER",
+          "distribution": "FILL",
+          "children": [
+            {
+              "type": "RICH_TEXT",
+              "text_type": "TINY_TEXT",
+              "text_alignment": "LEFT",
+              "markdown": "#(GREEN1)**Groenste keuze voor jouw buurt**#(GREEN1)"
+            }
+          ]
+        }
+      ]
+    },
+    "images": {
+      "icon": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAACE4AAAhOAFFljFgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAScSURBVHgB7ZpNUhtHFMdf92BBiEO0dFVsMj5B5BNEnCBiE8EK6wTAxqBVhk2IvbF9AsGKspMqfAPLJ/DkBGmLpCq7KFUJERT0y3sjEgshmFZPz0hF9a+KYjSamZ756/X7mgbweDwej8fj8Xg8Ho/H47lVCJgQUatcnp27WwkC+dWZhoeBwC81iJBuqEx3VQakv0EEdGlfFwG6AkQXBCo8hw8oMRYauye9v+Ko0e2CYwoVaPcgDMWMXgONVRq6Co4h8WIJqIQQ7fNz/XNz9dc2ZKQQgXYPHjwWEtbyECUd0RaAe1qfvmuu/q5gTHIV6PtXD2oSxHPaDGEq6Iu1Ve/sG58BObB7cC8U8k5rMhZjhKIHj0yEkuCY3YP7VRGU3k+xOEyICFWTA50K9PSnxTUh5dsrEWiaQGyj1kvbK52GyeEz4AgWh8LuHkwxAmFza+XoxVjngAOevf6iojF4D9MK5VB4rpdtwn5mC2KHTOIcQl4gKKQHpGioEDFJBDXAn/yfk0sEUUu5AiWUcqm52lFgQfYpJu9E4CiMc6JHzvOdQIyDIIiP/wYVNdSl7Jgz8PlPF9Y0Yg3TAkFiOSyOUmBJpinWD+elX8AWegCtYZ8sof3PcdAeFuPyWPerUgbrKCgLNwwC7IyzZtPZLKhvPePDkQRxJ+3mB62F0wZkG0MwG0LDzkRLjbGtJzF3eHnSky9ushSGhZm7u7BOYmxYpQz0A2yvHC2BA6wtSIpSzejHtBVGW+ZSPJ4OjHIcE6wFIl/wTZoBaoSXp8cyKkSYCwRNre0MTvnK9cCC6DAsz53qP649gEycHOrmk29VfON1sk6lq6jteuchOMTKgmZ7ZxWQo6uUvnM8ilIu8bHS1+4qfS5AwTFWAkkhKyP8j6Kw2kiLHLlV+ijaWysfjNsYplgJRL6lLAYmJyd4oOVyWrb6w4+L3zmcTpeQ8mwTcsDWSYf/baDG/ZNesHFzkncvBFk6pOlUgTxA2HtS/y2GHMiUKLI45G8e33TMs9eL65p9Q44tEES5AzlhH+ZTxOEI9cn8Zy2ajmnFZDbIepoOw/owdk5a4put+tGb676/yLLfYgG96Dyth3Hek+63XOVhIV1Fsh7TzqAtTluu7G8KbLmqvK2HcSYQh3DyN2O1M7PASWGevmdgnOwk+Y12n8Vei8NqPY3MFlS4OMnUCnL1O4NksqAJiMNlzqO0ItjpeGAJF5uFipP0ebBRpDj9YS1I8hx+ezoUrTh55Ev2Fyo4RZHlLBctDjO2QEkPZ36B34GFg/u5YG3WO494m5e5UEl7saIjY7KY9K+DRhERaxRjC/T01eJzEmNjaDe1Oka/XuHEEYWsUfX/NQ1mVqzyYimNsUljP2/GEqi/zke0hvebvl6JWmF5du7s/1Vl5AA/p7NDug3F31MPLuaFTye9mTitTVsUxgJdO7WSDmIngluKcRRLesdX/Ym6zeIwRgIlDa8RIZ39DtxyzCxoxBtUfqUzqchSJEYCUWYznNcogbKwwnSSGPogbA9+KqqSngaMBOqVgmWKVvv9xdzYHmeVqMfj8Xg8Ho/H4/F4PB6PZ6r4F5N0FANyovsYAAAAAElFTkSuQmCC"
+    },
+    "tracking_attributes": {
+      "template_variant_id": "slot-selector.markdown-block",
+      "entity_ids": []
+    }
+  },
+  "total_count": 0,
+  "total_price": 0,
+  "checkout_total_price": 0,
+  "total_deposit": 0,
+  "mts": 1693575984449,
+  "deposit_breakdown": [
+    {
+      "type": "DEFAULT",
+      "value": 60,
+      "count": 1
+    },
+    {
+      "type": "BAG",
+      "value": 35,
+      "count": 1
+    }
+  ],
+  "decorator_overrides": {
+    "s1005863": [
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "1 stuk"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 3
+      }
+    ],
+    "s1013971": [
+      {
+        "type": "FRESH_LABEL",
+        "period": "P8D"
+      },
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "8 x 65 ml"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      }
+    ],
+    "s1008752": [
+      {
+        "type": "FRESH_LABEL",
+        "period": "P3D"
+      },
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "400 gram"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      }
+    ],
+    "s1011483": [
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "400 gram"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      },
+      {
+        "type": "PRODUCT_SIZE",
+        "text": "XL"
+      }
+    ],
+    "s1017857": [
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "13 stuks"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      }
+    ],
+    "s1003403": [
+      {
+        "type": "FRESH_LABEL",
+        "period": "P7D"
+      },
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "10 stuks M/L"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      },
+      {
+        "type": "BRAND_TIER",
+        "tier": "DELI",
+        "origin": "Vaassen"
+      },
+      {
+        "type": "PRODUCT_CHARACTERISTICS",
+        "characteristics": [
+          {
+            "type": "ANIMAL_WELFARE",
+            "score": 3,
+            "rating": null,
+            "baby_month": null
+          }
+        ]
+      }
+    ],
+    "s1016998": [
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "360 gram"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      }
+    ],
+    "s1000092": [
+      {
+        "type": "FRESH_LABEL",
+        "period": "P4D"
+      },
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "6 of 7 stuks (850 gram)"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      }
+    ],
+    "s1010576": [
+      {
+        "type": "FRESH_LABEL",
+        "period": "P4D"
+      },
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "2 liter"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      },
+      {
+        "type": "PRODUCT_SIZE",
+        "text": "XL"
+      }
+    ],
+    "s1009421": [
+      {
+        "type": "FRESH_LABEL",
+        "period": "P8D"
+      },
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "1 liter"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 2
+      }
+    ],
+    "s1001333": [
+      {
+        "type": "FRESH_LABEL",
+        "period": "P5D"
+      },
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "3 stuks"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      }
+    ],
+    "s1018191": [
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "220 ml"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      }
+    ],
+    "s1063755": [
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "200 stuks"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      },
+      {
+        "type": "PRODUCT_STATUSES",
+        "statuses": [
+          {
+            "text": "Nieuw",
+            "appearance_type": "BADGE",
+            "style": {
+              "background_color": "GREEN5",
+              "text_color": "GREEN1"
+            }
+          }
+        ]
+      }
+    ],
+    "s1001524": [
+      {
+        "type": "UNIT_QUANTITY",
+        "unit_quantity_text": "6 x 300 ml"
+      },
+      {
+        "type": "VALIDITY_LABEL",
+        "valid_until": "2023-09-03"
+      },
+      {
+        "type": "QUANTITY",
+        "quantity": 1
+      },
+      {
+        "type": "PROMO",
+        "text": "2e halve prijs"
+      }
+    ]
+  }
+}

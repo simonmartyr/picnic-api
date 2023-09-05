@@ -28,3 +28,12 @@ func TestGetUser(t *testing.T) {
 		t.Error("Invalid nespresso consent")
 	}
 }
+
+func TestGetUserError(t *testing.T) {
+	c, s := testClientFile(http.StatusUnauthorized, "test/error.json")
+	defer s.Close()
+	_, err := c.GetUser()
+	if err == nil {
+		t.Error("err was nil")
+	}
+}
