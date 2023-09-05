@@ -13,3 +13,18 @@ type DeliverySlot struct {
 	MinimumOrderValue    int    `json:"minimum_order_value"`
 	UnavailabilityReason string `json:"unavailability_reason"`
 }
+
+type DeliverySlots struct {
+	DeliverySlots []DeliverySlot `json:"delivery_slots"`
+	SelectedSlot  SelectedSlot   `json:"selected_slot"`
+}
+
+func (c *Client) GetDeliverySlots() (*DeliverySlots, error) {
+	searchUrl := c.baseURL + "/cart/delivery_slots"
+	var deliverySlots DeliverySlots
+	err := c.get(searchUrl, &deliverySlots)
+	if err != nil {
+		return nil, err
+	}
+	return &deliverySlots, nil
+}
