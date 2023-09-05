@@ -1,0 +1,839 @@
+{
+  "type": "DELIVERY",
+  "id": "a3szungyku",
+  "delivery_id": "a3szungyku",
+  "creation_time": "2023-08-06T16:31:33.757+02:00",
+  "slot": {
+    "slot_id": "64bc6d892463c8138fddfe95",
+    "hub_id": "DVT",
+    "fc_id": "FCA",
+    "window_start": "2023-08-07T18:15:00.000+02:00",
+    "window_end": "2023-08-07T19:15:00.000+02:00",
+    "cut_off_time": "2023-08-06T23:00:00.000+02:00",
+    "is_available": false,
+    "selected": false,
+    "reserved": false,
+    "minimum_order_value": 4000,
+    "unavailability_reason": "CLOSED"
+  },
+  "eta2": {
+    "start": "2023-08-07T18:37:00.000+02:00",
+    "end": "2023-08-07T18:57:00.000+02:00"
+  },
+  "status": "COMPLETED",
+  "delivery_time": {
+    "start": "2023-08-07T19:48:21.005+02:00",
+    "end": "2023-08-07T19:53:38.217+02:00"
+  },
+  "orders": [
+    {
+      "type": "ORDER",
+      "id": "002-180-6339",
+      "items": [
+        {
+          "type": "ORDER_LINE",
+          "id": "5323",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1007102",
+              "name": "Anta Flu keelpastilles eucalyptus",
+              "image_ids": [
+                "fbb8f8243f319d7915a660e4dcbbbc5a839080bd2c34ba6abf8b24c9292a4454",
+                "07ff19ce613ffb353a94a63baa13de6c0a873da26cdc9982281d13949f357dfc"
+              ],
+              "unit_quantity": "275 gram",
+              "unit_quantity_sub": "€8.55/kg",
+              "price": 235,
+              "max_count": 50,
+              "perishable": false,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "275 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 235,
+          "price": 235
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5324",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1007488",
+              "name": "Kikkoman sojasaus",
+              "image_ids": [
+                "59a0863bbe267adc5c99708009a5fe3c0afa427e7e56ced097b1278d06fa254c"
+              ],
+              "unit_quantity": "150 ml",
+              "unit_quantity_sub": "€19.93/l",
+              "price": 299,
+              "max_count": 50,
+              "perishable": false,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "150 ml"
+                }
+              ]
+            }
+          ],
+          "display_price": 279,
+          "price": 279
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5326",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1000092",
+              "name": "Kinderbananen",
+              "image_ids": [
+                "2a9540510e46c9c46ca3e07a8f2286987e61de536305fa5f259d9dd7f21052f9",
+                "295f8ba3fc50c6c4f2e5d540529d7ce76a8273af8ca1ebb3a9736b0842734a02"
+              ],
+              "unit_quantity": "6 of 7 stuks (850 gram)",
+              "unit_quantity_sub": "€2.46/kg",
+              "price": 209,
+              "max_count": 50,
+              "perishable": false,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "6 of 7 stuks (850 gram)"
+                }
+              ]
+            }
+          ],
+          "display_price": 209,
+          "price": 209
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5327",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1008752",
+              "name": "Half boerenbrood Waldkorn",
+              "image_ids": [
+                "b3090f50801f5cbaeffad61f04393b64006ffb774f475fe3d69b7eea2ce2ecfe",
+                "855efd186230002d7668cc6f3c0737501b5fefb0e31420f5f95a41bb78ffef0c",
+                "3465a4fc1cf9f75cc3e2ca6b2513f01eafeaed70fc5d5beae04e0021278d1447"
+              ],
+              "unit_quantity": "400 gram",
+              "unit_quantity_sub": "€3.23/kg",
+              "price": 129,
+              "max_count": 50,
+              "perishable": false,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "400 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 129,
+          "price": 129
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5328",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1016998",
+              "name": "Kellogg's rice krispies",
+              "image_ids": [
+                "b43d0964e59bfb2321c19b860ecc3d335d6c3d8aa3619ae5eb144ddf3495d475",
+                "a918f025959def9067bd9b4b942b03168ea0291c04c23016ca3b063d09adc5b2"
+              ],
+              "unit_quantity": "360 gram",
+              "unit_quantity_sub": "€9.69/kg",
+              "price": 349,
+              "max_count": 50,
+              "perishable": false,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "360 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 360,
+          "price": 360
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5329",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1000217",
+              "name": "Aardappelpartjes met schil",
+              "image_ids": [
+                "8fa1c894671ed5e6de22d6dee1e91adcf316d830ee9abd52245011f4d42f7ecc",
+                "3dd5f162d8e4ea09a7164d154fd0b5bc77b1aa78f0a7c3485bc4370d39543393"
+              ],
+              "unit_quantity": "450 gram",
+              "unit_quantity_sub": "€2.42/kg",
+              "price": 109,
+              "max_count": 50,
+              "perishable": true,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "450 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 109,
+          "price": 109
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5330",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1007552",
+              "name": "Iglo kapiteins klassieker crispino's",
+              "image_ids": [
+                "cc50b7067028ea02c2d630023af90762897e5e230240354ea5cda125c14e182b",
+                "cf8474ae9c9a2c1edb637094db4c8629531b3d58a61a7ef6401fac9a8149b1bc",
+                "01ca23d14d802d0c593b8a6cd339f7a45d9b2cf9b2c5fa86877001d85947b87f",
+                "90dab0e0beffcef5680fe76281c69ee12a38b71f0bc8ae0019ff4ab91f490f2f"
+              ],
+              "unit_quantity": "4 x stuks",
+              "unit_quantity_sub": "€16.63/kg",
+              "price": 499,
+              "max_count": 10,
+              "perishable": false,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "4 x stuks"
+                }
+              ]
+            }
+          ],
+          "display_price": 459,
+          "price": 459
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5331",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1016619",
+              "name": "Geschrapte wortel",
+              "image_ids": [
+                "5f6f8c9b3b1179f73cedd09ef21a82f15903821af97a59b398f3389bdf395f69",
+                "266f413140071416636f3d663f2670423b266c00c62bed3f228d610130ccdbfd"
+              ],
+              "unit_quantity": "300 gram",
+              "unit_quantity_sub": "€3.33/kg",
+              "price": 100,
+              "max_count": 50,
+              "perishable": true,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "300 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 100,
+          "price": 100
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5332",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1051841",
+              "name": "Picnic Doperwtjes",
+              "image_ids": [
+                "b009e844b464bec480d872f731bf460f792c845d4ff01507c42df4c579d41a33",
+                "610f58d99aa7eda7549c02c6e9b76ab90d68e79d29235ce635cdf84a281180ea"
+              ],
+              "unit_quantity": "1kg",
+              "unit_quantity_sub": "€2.05/kg",
+              "price": 205,
+              "max_count": 99,
+              "perishable": false,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "1kg"
+                }
+              ]
+            }
+          ],
+          "display_price": 205,
+          "price": 205
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5333",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1006049",
+              "name": "Tante Fanny flammkuchendeeg",
+              "image_ids": [
+                "08020111d4541cb198646a507289754ba4c1a90c098ed4f982cc17294653bdd1",
+                "ee42b2e3ba3ece3f25cdabc33919df0674f024d24bc3d240cb96f755a7e0b605"
+              ],
+              "unit_quantity": "260 gram",
+              "unit_quantity_sub": "€7.65/kg",
+              "price": 199,
+              "max_count": 50,
+              "perishable": true,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "260 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 199,
+          "price": 199,
+          "decorators": [
+            {
+              "type": "PRICE",
+              "display_price": 159
+            },
+            {
+              "type": "PROMO",
+              "text": "20% korting"
+            }
+          ]
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5334",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1015557",
+              "name": "Mutti pizzasaus aromatizzata",
+              "image_ids": [
+                "e299ba96a3abcd4dfd67245049f66024edec462dfe65f7ed5bd509bfc303db0b"
+              ],
+              "unit_quantity": "210 gram",
+              "unit_quantity_sub": "€9.00/kg",
+              "price": 189,
+              "max_count": 10,
+              "perishable": false,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "210 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 199,
+          "price": 199
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5335",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1008206",
+              "name": "Galbani mozzarella",
+              "image_ids": [
+                "d9327365f5d38b825a0f519be0f6dd4766c6823d445cf23431ccb22c028a4386"
+              ],
+              "unit_quantity": "125 gram",
+              "unit_quantity_sub": "€17.20/kg",
+              "price": 215,
+              "max_count": 50,
+              "perishable": true,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "125 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 209,
+          "price": 209
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5336",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1013766",
+              "name": "Picnic geraspte milde kaas",
+              "image_ids": [
+                "1eb30075c9e2693a089f212107b00db666cbf7eb3db42cace0da385a5b9b7b43",
+                "7d1c2595d47e01dfab98aff6ec7f6ffe6dd598b960cdc43bfcb483e15f0f54f3"
+              ],
+              "unit_quantity": "250 gram",
+              "unit_quantity_sub": "€13.56/kg",
+              "price": 339,
+              "max_count": 50,
+              "perishable": true,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "250 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 339,
+          "price": 339
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5337",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1004441",
+              "name": "Witte champignons",
+              "image_ids": [
+                "e1898ad16339e684010cbfc93280a51813fddd69227591f4cd59c85eca7ccd4a",
+                "eb221e1038be258a053c1861643ef243dfc66bb2c45592d651f2613ad51fa83b"
+              ],
+              "unit_quantity": "250 gram",
+              "unit_quantity_sub": "€5.16/kg",
+              "price": 129,
+              "max_count": 50,
+              "perishable": false,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "250 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 145,
+          "price": 145
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5338",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1001333",
+              "name": "Paprika mix",
+              "image_ids": [
+                "1636e4be66026f7bffcb50b909fcf663268cad440cc1f1e51d5b3a086f356d37"
+              ],
+              "unit_quantity": "3 stuks",
+              "unit_quantity_sub": "€3.78/kg",
+              "price": 174,
+              "max_count": 50,
+              "perishable": false,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "3 stuks"
+                }
+              ]
+            }
+          ],
+          "display_price": 189,
+          "price": 189
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5339",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1014732",
+              "name": "Scharrelkipfilet in blokjes",
+              "image_ids": [
+                "8c178471c259b1689d210325d25840e51c68be434fc5b5064e0e587a25cee59c"
+              ],
+              "unit_quantity": "350 gram",
+              "unit_quantity_sub": "€16.54/kg",
+              "price": 579,
+              "max_count": 50,
+              "perishable": true,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "350 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 579,
+          "price": 579
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5340",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1014974",
+              "name": "Verstegen kruidenmix kip tandoori",
+              "image_ids": [
+                "40978a64abd9bee999d1997ee067364f4e021d2abf99ba363ccf0f76051d3ab6",
+                "3c20dd1cdb917e4caf68f2e1f50c4e038878617e54b689a6e3bd97a4b300a906",
+                "7d94a80abed6935adcdab2328cf616573576c364e76513a27d7bcfc38d306b0c"
+              ],
+              "unit_quantity": "20 gram",
+              "unit_quantity_sub": "€74.00/kg",
+              "price": 148,
+              "max_count": 50,
+              "perishable": false,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "20 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 148,
+          "price": 148
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5341",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1016531",
+              "name": "Picnic crème fraîche",
+              "image_ids": [
+                "c4b6d707d3a0193ddaf3ce3e6c098ccb3acec3921eb60af72a06c210c9deed7d",
+                "75ad5ac204aa766967a6e76985fb84db8172d7986b5275a1372173e58d33cda5"
+              ],
+              "unit_quantity": "200 gram",
+              "unit_quantity_sub": "€8.75/kg",
+              "price": 175,
+              "max_count": 50,
+              "perishable": true,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "200 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 169,
+          "price": 169
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5342",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1011800",
+              "name": "Picnic gezeefde tomaten",
+              "image_ids": [
+                "bed5d95a5e87bad56173c8ed7a1f0b8e68ebed22b49a8a07b347e2c3676d4d94",
+                "fe66c9836bc976360e16c47b0e810d7f18984f26d90d0f931d47942f205959ff",
+                "762e87431179d5611146a10a93202fe2a2a87e34823003c0569b83450a5d46c7"
+              ],
+              "unit_quantity": "500 gram",
+              "unit_quantity_sub": "€1.78/kg",
+              "price": 89,
+              "max_count": 10,
+              "perishable": false,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "500 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 95,
+          "price": 95
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5344",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1009421",
+              "name": "Picnic halfvolle yoghurt",
+              "image_ids": [
+                "dac3a5bd99826c5d1602b388040e5419b7a131ece26372cb60a6d24c29a5c078",
+                "0bd259de6d553529fc3f6bbe1870617423d348131f18e263de2da8c829377fcd",
+                "fc8985d685b439fdce3ba5ac1d8f26389b9ddb575ec80adac73ca528398a6a09",
+                "34852646cbe0933c64fcc543b6e4afdcea6f89a667573c542be4df0e9450e749"
+              ],
+              "unit_quantity": "1 liter",
+              "unit_quantity_sub": "€1.39/l",
+              "price": 139,
+              "max_count": 50,
+              "perishable": true,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 2
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "1 liter"
+                }
+              ]
+            }
+          ],
+          "display_price": 270,
+          "price": 270
+        },
+        {
+          "type": "ORDER_LINE",
+          "id": "5345",
+          "items": [
+            {
+              "type": "ORDER_ARTICLE",
+              "id": "s1016202",
+              "name": "Picnic vega filet americain",
+              "image_ids": [
+                "b4e2d6048298bbb5b5998106d359cdf9c650fbee5d51744aa4f181069641bcb4",
+                "7ed1adb412d4f5d340f5ab1f8936ee19bc4cc71f54deaf93a2a606e4676580bc",
+                "3d37052815879b691ba6e1810f594d50de1e0cb77d94f8d8392425cdad511d26"
+              ],
+              "unit_quantity": "150 gram",
+              "unit_quantity_sub": "€15.93/kg",
+              "price": 239,
+              "max_count": 50,
+              "perishable": true,
+              "tags": [],
+              "decorators": [
+                {
+                  "type": "IMMUTABLE"
+                },
+                {
+                  "type": "QUANTITY",
+                  "quantity": 1
+                },
+                {
+                  "type": "UNIT_QUANTITY",
+                  "unit_quantity_text": "150 gram"
+                }
+              ]
+            }
+          ],
+          "display_price": 239,
+          "price": 239,
+          "decorators": [
+            {
+              "type": "PRICE",
+              "display_price": 191
+            },
+            {
+              "type": "PROMO",
+              "text": "20% korting"
+            }
+          ]
+        }
+      ],
+      "slot_selector_message": null,
+      "total_price": 4812,
+      "checkout_total_price": 4812,
+      "total_savings": 88,
+      "total_deposit": 35,
+      "cancellable": false,
+      "transaction_info": {
+        "bank_id": "BANKID",
+        "payment_type": "IDEAL",
+        "redacted_iban": "9999 9999",
+        "refund_account": false
+      },
+      "creation_time": "2023-08-06T16:31:33.775+02:00",
+      "status": "COMPLETED",
+      "deposit_breakdown": [
+        {
+          "type": "BAG",
+          "value": 35,
+          "count": 1
+        }
+      ],
+      "decorator_overrides": {}
+    }
+  ],
+  "returned_containers": [],
+  "parcels": []
+}

@@ -204,6 +204,8 @@ func (c *Client) post(url string, body any, result interface{}) error {
 		return httpErr
 	}
 	defer res.Body.Close()
+	//bs, _ := io.ReadAll(res.Body)
+	//fmt.Println(string(bs))
 	jsonErr := json.NewDecoder(res.Body).Decode(result)
 	if jsonErr != nil {
 		return jsonErr
