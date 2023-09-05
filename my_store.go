@@ -10,3 +10,13 @@ type MyStore struct {
 	Id             string                   `json:"id"`
 	Links          []Link                   `json:"links"`
 }
+
+func (c *Client) GetMyStore() (*MyStore, error) {
+	myStoreUrl := c.baseURL + "/my_store"
+	var myStore MyStore
+	err := c.get(myStoreUrl, &myStore)
+	if err != nil {
+		return nil, err
+	}
+	return &myStore, nil
+}
