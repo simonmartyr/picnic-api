@@ -7,5 +7,5 @@ type TemplatedContent struct {
 	VersionName string   `json:"version_name"`
 	Content     string   `json:"content"`
 	Parameters  []string `json:"parameters"`
-	actions     []string `json:"actions"`
+	Actions     []string `json:"actions"`
 }

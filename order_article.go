@@ -13,6 +13,7 @@ type OrderArticle struct {
 	Decorators       []Decorator `json:"decorators"`
 }
 
+// Quantity A convince method to find the decorator with type Quantity and return the total.
 func (a OrderArticle) Quantity() int {
 	for _, decorator := range a.Decorators {
 		if decorator.Type == "QUANTITY" {
@@ -22,6 +23,8 @@ func (a OrderArticle) Quantity() int {
 	return 0
 }
 
+// IsAvailable A convince method to find the decorator with type UNAVAILABLE denoting the product is not available.
+// Full details can be found in the Decorator
 func (a OrderArticle) IsAvailable() bool {
 	for _, decorator := range a.Decorators {
 		if decorator.Type == "UNAVAILABLE" {

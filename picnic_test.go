@@ -1,6 +1,7 @@
 package picnic
 
 import (
+	"fmt"
 	"github.com/joho/godotenv"
 	"io"
 	"net/http"
@@ -24,6 +25,7 @@ func testClient(code int, body io.Reader, validators ...func(*http.Request)) (*C
 	client := &Client{
 		http:    http.DefaultClient,
 		baseURL: server.URL + "/",
+		token:   "mockToken",
 	}
 	return client, server
 }
@@ -44,6 +46,7 @@ func testImageClient(code int, body io.Reader, validators ...func(*http.Request)
 	client := &Client{
 		http:    http.DefaultClient,
 		baseURL: server.URL + "/",
+		token:   "mockToken",
 	}
 	return client, server
 }
@@ -89,7 +92,10 @@ func TestGetArticleImageUrl(t *testing.T) {
 	expectedUrl := "https://storefront-prod.nl.picnicinternational.com/static/images/s1005863/medium.png"
 	c := New(&http.Client{})
 
-	pictureUrl := c.GetArticleImageUrl(articleId, Medium)
+	pictureUrl, err := c.GetArticleImageUrl(articleId, Medium)
+	if err != nil {
+		t.Fatal(err)
+	}
 	if pictureUrl != expectedUrl {
 		t.Error("Invalid url")
 	}
@@ -221,5 +227,18 @@ func Test_Integration(t *testing.T) {
 	authErr := c.Authenticate()
 	if authErr != nil {
 		t.Error("auth failed")
+	}
+	fmt.Println(c.token)
+}
+
+func Test_Logout(t *testing.T) {
+	c, s := testClientFile(http.StatusOK, "test/empty.json")
+	defer s.Close()
+	err := c.Logout()
+	if err != nil {
+		t.Fatal(err.Error())
+	}
+	if c.token != "" {
+		t.Error("Invalid token value")
 	}
 }

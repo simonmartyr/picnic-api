@@ -19,3 +19,17 @@ func Test_GetDeliverySlots(t *testing.T) {
 		t.Error("Invalid Selected Slot")
 	}
 }
+
+func Test_GetDeliverySlots_Errors_RequiresAuth(t *testing.T) {
+	c := &Client{
+		http:  http.DefaultClient,
+		token: "",
+	}
+	res, err := c.GetDeliverySlots()
+	if res != nil {
+		t.Error("Unexpected response")
+	}
+	if err.Error() != authenticationError().Error() {
+		t.Error("Incorrect error")
+	}
+}

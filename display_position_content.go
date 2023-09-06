@@ -5,5 +5,5 @@ type DisplayPositionContent struct {
 	Id              string    `json:"id"`
 	Links           Link      `json:"links"`
 	DisplayPosition string    `json:"display_position"`
-	items           []Content `json:"items"`
+	Items           []Content `json:"items"`
 }

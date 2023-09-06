@@ -143,6 +143,11 @@ func (c *Client) Logout() error {
 	return nil
 }
 
+// IsAuthenticated convince method to verify the client has an auth token.
+func (c *Client) IsAuthenticated() bool {
+	return c.token != ""
+}
+
 func (c *Client) parseError(resp *http.Response) error {
 	body, err := io.ReadAll(resp.Body)
 	if err != nil {
@@ -180,8 +185,6 @@ func (c *Client) get(url string, result interface{}) error {
 	if res.StatusCode != http.StatusOK {
 		return c.parseError(res)
 	}
-	//bs, _ := io.ReadAll(res.Body)
-	//fmt.Println(string(bs))
 	jsonErr := json.NewDecoder(res.Body).Decode(result)
 	if jsonErr != nil {
 		return jsonErr
@@ -204,8 +207,9 @@ func (c *Client) post(url string, body any, result interface{}) error {
 		return httpErr
 	}
 	defer res.Body.Close()
-	//bs, _ := io.ReadAll(res.Body)
-	//fmt.Println(string(bs))
+	if result == nil {
+		return nil
+	}
 	jsonErr := json.NewDecoder(res.Body).Decode(result)
 	if jsonErr != nil {
 		return jsonErr
@@ -214,14 +218,25 @@ func (c *Client) post(url string, body any, result interface{}) error {
 }
 
 // GetArticleImageUrl generates the static url for a given article image.
-func (c *Client) GetArticleImageUrl(articleImageId string, size ImageSize) string {
+//
+// Open endpoint Authentication not required
+func (c *Client) GetArticleImageUrl(articleImageId string, size ImageSize) (string, error) {
+	if strings.TrimSpace(articleImageId) == "" {
+		return "", createError("GetArticleImageUrl requires an articleImageId string")
+	}
 	imageBaseUrl := strings.Split(c.baseURL, "api")
-	return fmt.Sprintf("%sstatic/images/%s/%s.png", imageBaseUrl[0], articleImageId, size.String())
+	return fmt.Sprintf("%sstatic/images/%s/%s.png", imageBaseUrl[0], articleImageId, size.String()), nil
 }
 
 // GetArticleImage retrieves and decodes the png image of a given article.
+//
+// Open endpoint Authentication not required
 func (c *Client) GetArticleImage(articleImageId string, size ImageSize) (*image.Image, error) {
-	res, resErr := c.http.Get(c.GetArticleImageUrl(articleImageId, size))
+	url, urlErr := c.GetArticleImageUrl(articleImageId, size)
+	if urlErr != nil {
+		return nil, urlErr
+	}
+	res, resErr := c.http.Get(url)
 	if resErr != nil {
 		return nil, resErr
 	}

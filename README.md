@@ -44,9 +44,6 @@ func main() {
 }
 ```
 
-
-
-
 ## References & Credits
 
 Thanks to the efforts of [MRVDH](https://github.com/MRVDH/picnic-api/) which documented the API.

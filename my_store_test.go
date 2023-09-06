@@ -16,3 +16,17 @@ func Test_GetMyStore(t *testing.T) {
 		t.Error("Invalid Item Catalog length")
 	}
 }
+
+func Test_GetMyStore_Errors_RequiresAuth(t *testing.T) {
+	c := &Client{
+		http:  http.DefaultClient,
+		token: "",
+	}
+	res, err := c.GetMyStore()
+	if res != nil {
+		t.Error("Unexpected response")
+	}
+	if err.Error() != authenticationError().Error() {
+		t.Error("Incorrect error")
+	}
+}

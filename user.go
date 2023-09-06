@@ -21,7 +21,12 @@ type User struct {
 }
 
 // GetUser Retrieves the details of currently authenticated user.
+//
+// Method requires client to be authenticated
 func (c *Client) GetUser() (*User, error) {
+	if !c.IsAuthenticated() {
+		return nil, authenticationError()
+	}
 	userUrl := c.baseURL + "/user"
 	var user User
 	err := c.get(userUrl, &user)

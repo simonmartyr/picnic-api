@@ -23,3 +23,31 @@ func TestGetArticleDetails(t *testing.T) {
 		t.Error("Invalid images")
 	}
 }
+
+func TestGetArticleDetails_Error_MissingId(t *testing.T) {
+	articleId := "  "
+	c, s := testClientFile(http.StatusOK, "test/article_details_data.json")
+	defer s.Close()
+	res, err := c.GetArticleDetails(articleId)
+	if res != nil {
+		t.Error("Invalid unexpected response")
+	}
+	if err == nil {
+		t.Error("No error raised")
+	}
+}
+
+func TestGetArticleDetails_Error_RequiresAuth(t *testing.T) {
+	articleId := "s1005863"
+	c := &Client{
+		http:  http.DefaultClient,
+		token: "",
+	}
+	res, err := c.GetArticleDetails(articleId)
+	if res != nil {
+		t.Error("Unexpected response")
+	}
+	if err.Error() != authenticationError().Error() {
+		t.Error("Incorrect error")
+	}
+}

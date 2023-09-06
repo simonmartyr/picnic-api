@@ -7,7 +7,7 @@ type Category struct {
 	Links                    []Link      `json:"links"`
 	Name                     string      `json:"name"`
 	Items                    []Category  `json:"items"`
-	level                    int         `json:"level"`
+	Level                    int         `json:"level"`
 	IsIncludedInCategoryTree bool        `json:"is_included_in_category_tree"`
-	hidden                   bool        `json:"hidden"`
+	Hidden                   bool        `json:"hidden"`
 }

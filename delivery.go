@@ -1,5 +1,9 @@
 package picnic
 
+import (
+	"strings"
+)
+
 type Delivery struct {
 	Type               string            `json:"type"`
 	Id                 string            `json:"id"`
@@ -14,7 +18,17 @@ type Delivery struct {
 	Parcels            []string          `json:"parcels"`
 }
 
-func (c *Client) GetDeliveries(filter *[]DeliveryStatus) (*[]Delivery, error) {
+// GetDeliveries Query for all current or past deliveries. Optionally provide a filter of the list of DeliveryStatus
+// to filter the deliveries by. The data returned is a summary, to get the complete data of a delivery use GetDelivery
+//
+// Method requires client to be authenticated
+func (c *Client) GetDeliveries(filter []DeliveryStatus) (*[]Delivery, error) {
+	if !c.IsAuthenticated() {
+		return nil, authenticationError()
+	}
+	if filter == nil {
+		filter = []DeliveryStatus{}
+	}
 	searchUrl := c.baseURL + "/deliveries/summary"
 	var deliveries []Delivery
 	err := c.post(searchUrl, filter, &deliveries)
@@ -24,7 +38,16 @@ func (c *Client) GetDeliveries(filter *[]DeliveryStatus) (*[]Delivery, error) {
 	return &deliveries, nil
 }
 
+// GetDelivery Query for the complete details of a particular delivery.
+//
+// Method requires client to be authenticated
 func (c *Client) GetDelivery(deliveryId string) (*Delivery, error) {
+	if !c.IsAuthenticated() {
+		return nil, authenticationError()
+	}
+	if strings.TrimSpace(deliveryId) == "" {
+		return nil, createError("GetDelivery requires a valid deliveryId string")
+	}
 	searchUrl := c.baseURL + "/deliveries/" + deliveryId
 	var delivery Delivery
 	err := c.get(searchUrl, &delivery)

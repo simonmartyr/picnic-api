@@ -11,7 +11,13 @@ type MyStore struct {
 	Links          []Link                   `json:"links"`
 }
 
+// GetMyStore query to retrieve the MyStore for the current authenticated user
+//
+// Method requires client to be authenticated
 func (c *Client) GetMyStore() (*MyStore, error) {
+	if !c.IsAuthenticated() {
+		return nil, authenticationError()
+	}
 	myStoreUrl := c.baseURL + "/my_store"
 	var myStore MyStore
 	err := c.get(myStoreUrl, &myStore)
