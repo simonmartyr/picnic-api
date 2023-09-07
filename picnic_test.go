@@ -1,7 +1,6 @@
 package picnic
 
 import (
-	"fmt"
 	"github.com/joho/godotenv"
 	"io"
 	"net/http"
@@ -228,7 +227,6 @@ func Test_Integration(t *testing.T) {
 	if authErr != nil {
 		t.Error("auth failed")
 	}
-	fmt.Println(c.token)
 }
 
 func Test_Logout(t *testing.T) {
