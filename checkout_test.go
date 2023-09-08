@@ -8,7 +8,7 @@ import (
 func TestClient_StartCheckout(t *testing.T) {
 	c, s := testClientFile(http.StatusOK, "test/checkout_start_data.json")
 	defer s.Close()
-	res, err := c.StartCheckout("mts")
+	res, err := c.StartCheckout(1)
 	if err != nil {
 		t.Fatal(*err)
 	}
@@ -23,7 +23,7 @@ func TestClient_StartCheckout(t *testing.T) {
 func TestClient_CheckoutWithResolveKey(t *testing.T) {
 	c, s := testClientFile(http.StatusOK, "test/checkout_start_data.json")
 	defer s.Close()
-	res, err := c.CheckoutWithResolveKey("mts", "key")
+	res, err := c.CheckoutWithResolveKey(1, "key")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -38,7 +38,7 @@ func TestClient_CheckoutWithResolveKey(t *testing.T) {
 func TestClient_StartCheckout_AgeError(t *testing.T) {
 	c, s := testClientFile(http.StatusBadRequest, "test/age_verification_data.json")
 	defer s.Close()
-	res, err := c.StartCheckout("mts")
+	res, err := c.StartCheckout(1)
 	if res != nil {
 		t.Error("Unexpected response")
 	}

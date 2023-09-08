@@ -10,7 +10,7 @@ import (
 // ResolveKey in the event a checkout requires additional verification the key must be included
 // For example, the purchase of alcohol requires the value 'age_verified' to be present
 type CheckoutStart struct {
-	Mts           string `json:"mts"`
+	Mts           int    `json:"mts"`
 	OosArticleIds any    `json:"oos_article_ids"`
 	ResolveKey    string `json:"resolve_key,omitempty"`
 }
@@ -40,12 +40,9 @@ type DepositBreakdown struct {
 // Alcohol, a call to CheckoutWithResolveKey is required, the resolveKey can be found within the CheckoutError
 //
 // Method requires client to be authenticated
-func (c *Client) StartCheckout(mts string) (*Checkout, *CheckoutError) {
+func (c *Client) StartCheckout(mts int) (*Checkout, *CheckoutError) {
 	if !c.IsAuthenticated() {
 		return nil, wrapCheckoutError(authenticationError())
-	}
-	if strings.TrimSpace(mts) == "" {
-		return nil, wrapCheckoutError(createError("StartCheckout requires a valid mts value"))
 	}
 	request := CheckoutStart{
 		Mts:           mts,
@@ -57,12 +54,12 @@ func (c *Client) StartCheckout(mts string) (*Checkout, *CheckoutError) {
 // CheckoutWithResolveKey The same as StartCheckout but if an order is flagged with issues, leverage this method in order to set the required resolveKeys
 //
 // Method requires client to be authenticated
-func (c *Client) CheckoutWithResolveKey(mts string, resolveKey string) (*Checkout, *CheckoutError) {
+func (c *Client) CheckoutWithResolveKey(mts int, resolveKey string) (*Checkout, *CheckoutError) {
 	if !c.IsAuthenticated() {
 		return nil, wrapCheckoutError(authenticationError())
 	}
-	if strings.TrimSpace(mts) == "" || strings.TrimSpace(resolveKey) == "" {
-		return nil, wrapCheckoutError(createError("CheckoutWithResolveKey requires a valid mts and resolveKey value"))
+	if strings.TrimSpace(resolveKey) == "" {
+		return nil, wrapCheckoutError(createError("CheckoutWithResolveKey requires a valid resolveKey value"))
 	}
 	request := CheckoutStart{
 		Mts:           mts,
