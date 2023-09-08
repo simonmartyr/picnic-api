@@ -5,6 +5,7 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"image"
 	"image/png"
@@ -145,6 +146,9 @@ func (c *Client) Logout() error {
 
 // IsAuthenticated convince method to verify the client has an auth token.
 func (c *Client) IsAuthenticated() bool {
+	if c == nil {
+		return false
+	}
 	return c.token != ""
 }
 
@@ -168,6 +172,14 @@ func (c *Client) parseError(resp *http.Response) error {
 	if jsonErr != nil {
 		return fmt.Errorf("picnic-api: produced an [%d] response with an unprocessable error payload [%s]", resp.StatusCode, body)
 	}
+	if apiError.Error.IsAgeVerificationCheck() {
+		return &CheckoutError{
+			Code:       apiError.Error.Code,
+			Message:    apiError.Error.Message,
+			ResolveKey: apiError.Error.Details.ResolveKey,
+			Err:        errors.New("picnic-api: check out requires age verification please use CheckoutWithResolveKey"),
+		}
+	}
 	return fmt.Errorf("picnic-api: produced an error with code [%s] and message [%s]", apiError.Error.Code, apiError.Error.Message)
 }
 
@@ -182,7 +194,7 @@ func (c *Client) get(url string, result interface{}) error {
 		return httpErr
 	}
 	defer res.Body.Close()
-	if res.StatusCode != http.StatusOK {
+	if !(res.StatusCode >= 200 && res.StatusCode <= 299) {
 		return c.parseError(res)
 	}
 	jsonErr := json.NewDecoder(res.Body).Decode(result)
@@ -207,6 +219,9 @@ func (c *Client) post(url string, body any, result interface{}) error {
 		return httpErr
 	}
 	defer res.Body.Close()
+	if !(res.StatusCode >= 200 && res.StatusCode <= 299) {
+		return c.parseError(res)
+	}
 	if result == nil {
 		return nil
 	}

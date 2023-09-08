@@ -1,0 +1,9 @@
+{
+  "payment_id": "35810E06-6D1C-46EF-9BC7-5F62102945E3",
+  "transaction_id": "5aaa4ran14d840fa84ca45090defcec7",
+  "issuer_authentication_url": "https://averycoolurl.com",
+  "action": {
+    "type": "REDIRECT",
+    "redirect_url": "https://averycoolurl.com"
+  }
+}

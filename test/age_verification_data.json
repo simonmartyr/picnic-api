@@ -1,0 +1,15 @@
+{
+  "error": {
+    "code": "CART_HAS_ISSUES",
+    "message": "Alleen dan bezorgen we alcohol. We kunnen bij de bezorging vragen om je ID-bewijs.",
+    "details": {
+      "type": "LEGACY_ALCOHOL_AGE_VERIFICATION_REQUIRED",
+      "localized_message": "Alleen dan bezorgen we alcohol. We kunnen bij de bezorging vragen om je ID-bewijs.",
+      "blocking": false,
+      "resolve_key": "age_verified",
+      "localized_title": "Ben je 18 jaar of ouder?",
+      "localized_continue_button_text": "Ja",
+      "localized_cancel_button_text": "Nee"
+    }
+  }
+}

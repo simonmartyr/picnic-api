@@ -1,0 +1,186 @@
+{
+  "stored_payment_options": [
+    {
+      "id": "105db322-b514-40a8-b90c-97b947154893",
+      "payment_method": "DIRECT_DEBIT",
+      "brand": "BrandName",
+      "account": "•••• 6666",
+      "display_name": "Automatische afschrijving",
+      "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/c23f6fcbde9547ac2216f908091e3271d161d11d62cc2ac817d8647243941ba5/small.png"
+    },
+    {
+      "id": "de1f471e-a461-4dc2-a2fc-a618ddc9b6c4",
+      "payment_method": "IDEAL",
+      "brand": "BrandName",
+      "account": null,
+      "display_name": "iDEAL",
+      "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/c23f6fcbde9547ac2216f908091e3271d161d11d62cc2ac817d8647243941ba5/small.png"
+    },
+    {
+      "id": "3115b619-d579-4b29-89f4-a47bef8845c7",
+      "payment_method": "IDEAL",
+      "brand": "BrandName",
+      "account": null,
+      "display_name": "iDEAL",
+      "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/ed72c1b7cdb05de4bc2ce24b8deaf2457ee8b03d461e179a62df9d2f0a863284/small.png"
+    },
+    {
+      "id": "d924a46c-0989-4519-ba8c-f345eea78eb7",
+      "payment_method": "DIRECT_DEBIT",
+      "brand": "BrandName",
+      "account": "•••• 6666",
+      "display_name": "Automatische afschrijving",
+      "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/ed72c1b7cdb05de4bc2ce24b8deaf2457ee8b03d461e179a62df9d2f0a863284/small.png"
+    },
+    {
+      "id": "03a38a71-3c4f-4845-a34a-bdfa535437ec",
+      "payment_method": "DIRECT_DEBIT",
+      "brand": "BrandName",
+      "account": "•••• 6666",
+      "display_name": "Automatische afschrijving",
+      "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/c23f6fcbde9547ac2216f908091e3271d161d11d62cc2ac817d8647243941ba5/small.png"
+    }
+  ],
+  "available_payment_methods": [
+    {
+      "payment_method": "IDEAL",
+      "available_banks": [
+        {
+          "bank_id": "ABNANL2A",
+          "name": "ABN AMRO"
+        },
+        {
+          "bank_id": "ASNBNL21",
+          "name": "ASN Bank"
+        },
+        {
+          "bank_id": "BUNQNL2A",
+          "name": "bunq"
+        },
+        {
+          "bank_id": "HANDNL2A",
+          "name": "Handelsbanken"
+        },
+        {
+          "bank_id": "INGBNL2A",
+          "name": "ING"
+        },
+        {
+          "bank_id": "KNABNL2H",
+          "name": "Knab"
+        },
+        {
+          "bank_id": "RABONL2U",
+          "name": "Rabobank"
+        },
+        {
+          "bank_id": "RBRBNL21",
+          "name": "RegioBank"
+        },
+        {
+          "bank_id": "SNSBNL2A",
+          "name": "SNS"
+        },
+        {
+          "bank_id": "TRIONL2U",
+          "name": "Triodos Bank"
+        },
+        {
+          "bank_id": "FVLBNL22",
+          "name": "Van Lanschot"
+        },
+        {
+          "bank_id": "REVOLT21",
+          "name": "Revolut"
+        }
+      ]
+    },
+    {
+      "payment_method": "DIRECT_DEBIT"
+    }
+  ],
+  "payment_methods": [
+    {
+      "payment_method": "IDEAL",
+      "display_name": "iDEAL",
+      "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/40dc55b6d4e1db65537206cf63c6a702d369c8f32a5e154c208443142aa24623/small.png",
+      "brands": [
+        {
+          "brand": "ABNANL2A",
+          "display_name": "ABN AMRO",
+          "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/9e9273991cb075b3429d29b98bddf2c75af14beeb291395c26378970be89ffc8/small.png"
+        },
+        {
+          "brand": "ASNBNL21",
+          "display_name": "ASN Bank",
+          "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/1fa1db1a9996ad74258d483a86be76577a5c9f672c81345c4615a3c468072236/small.png"
+        },
+        {
+          "brand": "BUNQNL2A",
+          "display_name": "bunq",
+          "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/1d10920cfa25e832c3b1417e1687828ca05567fe22c2d6c1de74cba86962add8/small.png"
+        },
+        {
+          "brand": "HANDNL2A",
+          "display_name": "Handelsbanken",
+          "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/2f564e313a9760125e3b3582204dd5c69131d6ae273630958e6d3de620148b44/small.png"
+        },
+        {
+          "brand": "INGBNL2A",
+          "display_name": "ING",
+          "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/c23f6fcbde9547ac2216f908091e3271d161d11d62cc2ac817d8647243941ba5/small.png"
+        },
+        {
+          "brand": "KNABNL2H",
+          "display_name": "Knab",
+          "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/9b117cbf6e94951bad36a7e0c8962896ce6ee83c2be7ca7d2d12d0cba709bd3f/small.png"
+        },
+        {
+          "brand": "RABONL2U",
+          "display_name": "Rabobank",
+          "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/ed72c1b7cdb05de4bc2ce24b8deaf2457ee8b03d461e179a62df9d2f0a863284/small.png"
+        },
+        {
+          "brand": "RBRBNL21",
+          "display_name": "RegioBank",
+          "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/3b55760ba6d100ffd78c065c6c705f0d4fb1b85703f24c819c8ab5b66ef850d5/small.png"
+        },
+        {
+          "brand": "SNSBNL2A",
+          "display_name": "SNS",
+          "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/a32182d541b6e4ddbbe3b088cb928b5e96ade53109a414748526b476b8ae7638/small.png"
+        },
+        {
+          "brand": "TRIONL2U",
+          "display_name": "Triodos Bank",
+          "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/23a74240679bebda9c393ebd4dcd2514ebef4589491f6f9dc91b30e55b20ba5f/small.png"
+        },
+        {
+          "brand": "FVLBNL22",
+          "display_name": "Van Lanschot",
+          "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/9b434488b161f6715525c1d64d0d69ea512f06c1f2b926e387029173d77ef20c/small.png"
+        },
+        {
+          "brand": "REVOLT21",
+          "display_name": "Revolut",
+          "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/e2d34903204677ff60a083ffc8bdff3e2e5a79c57a464085ec6cfb7df27b3390/small.png"
+        }
+      ],
+      "data": {},
+      "visibility": "SHOWN",
+      "visibility_reason": null
+    },
+    {
+      "payment_method": "DIRECT_DEBIT",
+      "display_name": "Automatische afschrijving",
+      "icon_url": "https://picnic-nl-prod-images.s3.amazonaws.com/payment-icons/7fdf97a1b3c3c70b07b5b4b3bdf8994f3d36d1d186c092d35d584e521eda321c/small.png",
+      "brands": [],
+      "data": {},
+      "visibility": "SHOWN",
+      "visibility_reason": null
+    }
+  ],
+  "preferred_payment_option_id": "de1f471e-a461-4dc2-a2fc-a618ddc9b6c4",
+  "available_payment_method_item": null,
+  "checkout_banner": null
+}

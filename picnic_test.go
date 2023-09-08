@@ -240,3 +240,24 @@ func Test_Logout(t *testing.T) {
 		t.Error("Invalid token value")
 	}
 }
+
+func TestClient_IsAuthenticated_False(t *testing.T) {
+	c := New(&http.Client{})
+	if c.IsAuthenticated() {
+		t.Error("Invalid authenticated result")
+	}
+}
+
+func TestClient_IsAuthenticated_True(t *testing.T) {
+	c := New(&http.Client{}, WithToken("example"))
+	if !c.IsAuthenticated() {
+		t.Error("Invalid authenticated result")
+	}
+}
+
+func TestClient_IsAuthenticated_False_Nil(t *testing.T) {
+	var c *Client
+	if c.IsAuthenticated() {
+		t.Error("Invalid authenticated result")
+	}
+}
