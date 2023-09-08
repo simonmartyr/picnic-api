@@ -59,7 +59,7 @@ func TestClient_CancelCheckout(t *testing.T) {
 func TestGetCheckoutStatus(t *testing.T) {
 	c, s := testClientFile(http.StatusOK, "test/checkout_status_data.json")
 	defer s.Close()
-	res, err := c.getCheckoutStatus("id")
+	res, err := c.GetCheckoutStatus("id")
 	if err != nil {
 		t.Fatal(err)
 	}

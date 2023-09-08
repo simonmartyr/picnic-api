@@ -33,6 +33,13 @@ type DepositBreakdown struct {
 	Count int    `json:"count"`
 }
 
+// StartCheckout begin the process of payment for the current order.
+// Upon success the Checkout result will contain an OrderId which can be used to initiate payment
+// Using the method InitiatePayment.
+// A CheckoutError occurs when articles or issues exist with the current order. In the example of orders which contain
+// Alcohol, a call to CheckoutWithResolveKey is required, the resolveKey can be found within the CheckoutError
+//
+// Method requires client to be authenticated
 func (c *Client) StartCheckout(mts string) (*Checkout, *CheckoutError) {
 	if !c.IsAuthenticated() {
 		return nil, wrapCheckoutError(authenticationError())
@@ -47,6 +54,9 @@ func (c *Client) StartCheckout(mts string) (*Checkout, *CheckoutError) {
 	return c.startCheckout(&request)
 }
 
+// CheckoutWithResolveKey The same as StartCheckout but if an order is flagged with issues, leverage this method in order to set the required resolveKeys
+//
+// Method requires client to be authenticated
 func (c *Client) CheckoutWithResolveKey(mts string, resolveKey string) (*Checkout, *CheckoutError) {
 	if !c.IsAuthenticated() {
 		return nil, wrapCheckoutError(authenticationError())
@@ -78,12 +88,16 @@ func (c *Client) startCheckout(request *CheckoutStart) (*Checkout, *CheckoutErro
 	return &checkout, nil
 }
 
-func (c *Client) getCheckoutStatus(transactionId string) (string, error) {
+// GetCheckoutStatus Whilst a checkout process is ongoing, calls to this endpoint will report its current status
+// This can be helpful to verify if the payment has been received
+//
+// Method requires client to be authenticated
+func (c *Client) GetCheckoutStatus(transactionId string) (string, error) {
 	if !c.IsAuthenticated() {
 		return "", wrapCheckoutError(authenticationError())
 	}
 	if strings.TrimSpace(transactionId) == "" {
-		return "", wrapCheckoutError(createError("getCheckoutStatus requires a valid transactionId value"))
+		return "", wrapCheckoutError(createError("GetCheckoutStatus requires a valid transactionId value"))
 	}
 	checkoutStatusUrl := c.baseURL + "/cart/checkout/" + transactionId + "/status"
 	var checkoutStatus struct {
@@ -96,6 +110,9 @@ func (c *Client) getCheckoutStatus(transactionId string) (string, error) {
 	return checkoutStatus.CheckoutStatus, nil
 }
 
+// CancelCheckout ends the transaction with the associated id
+//
+// Method requires client to be authenticated
 func (c *Client) CancelCheckout(transactionId string) error {
 	if !c.IsAuthenticated() {
 		return wrapCheckoutError(authenticationError())

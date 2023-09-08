@@ -19,12 +19,16 @@ type PaymentAction struct {
 	RedirectUrl string `json:"redirect_url"`
 }
 
+// InitiatePayment begin the process of paying for the order with a given orderId
+// After payment is successfully started, GetCheckoutStatus can be used to monitor the status
+//
+// Method requires client to be authenticated
 func (c *Client) InitiatePayment(orderId string) (*Payment, error) {
 	if !c.IsAuthenticated() {
 		return nil, wrapCheckoutError(authenticationError())
 	}
 	if strings.TrimSpace(orderId) == "" {
-		return nil, wrapCheckoutError(createError("getCheckoutStatus requires a valid transactionId value"))
+		return nil, wrapCheckoutError(createError("GetCheckoutStatus requires a valid transactionId value"))
 	}
 	initiatePaymentUrl := c.baseURL + "/cart/checkout/initiate_payment"
 	var initiateRequest = InitiatePaymentRequest{
