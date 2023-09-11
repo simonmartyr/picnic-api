@@ -17,4 +17,5 @@ type Decorator struct {
 	UnitQuantityText  string      `json:"unit_quantity_text"`
 	ValidUntil        string      `json:"valid_until"`
 	Reason            string      `json:"reason"`
+	Text              string      `json:"text"`
 }

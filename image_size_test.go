@@ -28,8 +28,7 @@ func TestImageSize_String_ExtraLarge(t *testing.T) {
 	}
 }
 func TestImageSize_String_Default(t *testing.T) {
-	var c ImageSize
-	c = 9
+	var c ImageSize = 9
 	if c.String() != "small" {
 		t.Error("Default incorrect")
 	}

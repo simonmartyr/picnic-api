@@ -11,9 +11,18 @@ type ArticleDetails struct {
 	PriceInfo        PriceInfo          `json:"price_info"`
 	Images           []Image            `json:"images"`
 	UnitQuantity     string             `json:"unit_quantity"`
+	Labels           Label              `json:"labels"`
 	MaxOrderQuantity int                `json:"max_order_quantity"`
 	Decorators       []Decorator        `json:"decorators"`
 	Description      ArticleDescription `json:"description"`
+}
+
+type Label struct {
+	Promo Promo `json:"promo"`
+}
+
+type Promo struct {
+	Text string `json:"text"`
 }
 
 // GetArticleDetails Retrieve a single article by its identifier. Article details provides additional information
@@ -34,4 +43,8 @@ func (c *Client) GetArticleDetails(articleId string) (*ArticleDetails, error) {
 		return nil, err
 	}
 	return &article, nil
+}
+
+func (a ArticleDetails) GetPromotion() string {
+	return a.Labels.Promo.Text
 }
