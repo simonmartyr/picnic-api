@@ -44,6 +44,10 @@ func main() {
 }
 ```
 
+## Demo Project
+
+For a complete example of the API being used, checkout [picnic-tui](https://github.com/simonmartyr/picnic-tui/)
+
 ## References & Credits
 
 Thanks to the efforts of [MRVDH](https://github.com/MRVDH/picnic-api/) which documented the API.
