@@ -5,7 +5,6 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"encoding/json"
-	"errors"
 	"fmt"
 	"image"
 	"image/png"
@@ -172,13 +171,8 @@ func (c *Client) parseError(resp *http.Response) error {
 	if jsonErr != nil {
 		return fmt.Errorf("picnic-api: produced an [%d] response with an unprocessable error payload [%s]", resp.StatusCode, body)
 	}
-	if apiError.Error.IsAgeVerificationCheck() {
-		return &CheckoutError{
-			Code:       apiError.Error.Code,
-			Message:    apiError.Error.Message,
-			ResolveKey: apiError.Error.Details.ResolveKey,
-			Err:        errors.New("picnic-api: check out requires age verification please use CheckoutWithResolveKey"),
-		}
+	if apiError.Error.IsCartError() {
+		return apiError.Error.CreateCheckoutError()
 	}
 	return fmt.Errorf("picnic-api: produced an error with code [%s] and message [%s]", apiError.Error.Code, apiError.Error.Message)
 }

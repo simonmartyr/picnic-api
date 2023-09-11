@@ -16,6 +16,6 @@ type PicnicErrorDetails struct {
 	LocalizedCancelButtonText   string `json:"localized_cancel_button_text"`
 }
 
-func (p PicnicError) IsAgeVerificationCheck() bool {
-	return p.Details.Type == "LEGACY_ALCOHOL_AGE_VERIFICATION_REQUIRED"
+func (p *PicnicError) IsCartError() bool {
+	return p.Code == "CART_HAS_ISSUES"
 }
