@@ -1,4 +1,4 @@
-module github.com/simonmartyr/picnic/v1
+module github.com/simonmartyr/picnic
 
 go 1.20
 
