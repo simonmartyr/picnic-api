@@ -17,7 +17,7 @@ or credentials to manually authenticate with.
 ```go
 //authentication with a token
 package main
-import "github.com/simonmartyr/picnic"
+import picnic "github.com/simonmartyr/picnic-api"
 
 func main() {
     client := picnic.New(&http.Client{},
@@ -30,7 +30,7 @@ or
 ```go
 //authentication using auth credentials
 package main
-import "github.com/simonmartyr/picnic"
+import picnic "github.com/simonmartyr/picnic-api"
 
 func main() {
     client := picnic.New(&http.Client{},
