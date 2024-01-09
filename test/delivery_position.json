@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "scenario_ts": 1704795199346,
+  "eta": 1704797648363,
+  "eta_window": {
+    "start": "2024-01-09T11:43:26.361+01:00",
+    "end": "2024-01-09T12:03:26.361+01:00"
+  },
+  "query_interval": 10000,
+  "scenario_in_progress": true
+}
