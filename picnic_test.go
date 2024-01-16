@@ -9,6 +9,8 @@ import (
 	"testing"
 )
 
+const mockToken = `fakeheader.eyJzdWIiOiI4MDgtODEwLTAzMzkiLCJwYzpjbGlkIjoyMDEwMCwicGM6cHY6ZW5hYmxlZCI6ZmFsc2UsInBjOmxvZ2ludHMiOjE1NjEwNDUyNTYxMDcsImlzcyI6InBpY25pYy1kZXYiLCJwYzpwdjp2ZXJpZmllZCI6dHJ1ZSwicGM6MmZhIjoiTk9UX1JFUVVJUkVEIiwicGM6cm9sZSI6IlNUQU5EQVJEX1VTRVIiLCJwYzpkaWQiOiJCQTAyNjAxOC1GMEVFLTRDOTAtQTFENC00Q0MzNjg3RUE4ODEiLCJleHAiOjE3MjAyNjM5NzgsImlhdCI6MTcwNDcxMTk3OCwianRpIjoiMlJJN0c0UFUifQ.FakeSiganture`
+
 func testClient(code int, body io.Reader, validators ...func(*http.Request)) (*Client, *httptest.Server) {
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		for _, v := range validators {
@@ -24,7 +26,7 @@ func testClient(code int, body io.Reader, validators ...func(*http.Request)) (*C
 	client := &Client{
 		http:    http.DefaultClient,
 		baseURL: server.URL + "/",
-		token:   "mockToken",
+		token:   mockToken,
 	}
 	return client, server
 }
@@ -45,7 +47,7 @@ func testImageClient(code int, body io.Reader, validators ...func(*http.Request)
 	client := &Client{
 		http:    http.DefaultClient,
 		baseURL: server.URL + "/",
-		token:   "mockToken",
+		token:   mockToken,
 	}
 	return client, server
 }
@@ -226,6 +228,13 @@ func Test_Integration(t *testing.T) {
 	authErr := c.Authenticate()
 	if authErr != nil {
 		t.Error("auth failed")
+	}
+	user, userErr := c.GetUser()
+	if userErr != nil {
+		t.Fatal(userErr)
+	}
+	if user == nil {
+		t.Error("invalid user")
 	}
 }
 

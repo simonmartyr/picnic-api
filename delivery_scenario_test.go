@@ -1,7 +1,9 @@
 package picnic
 
 import (
+	"github.com/joho/godotenv"
 	"net/http"
+	"os"
 	"testing"
 )
 
@@ -37,5 +39,29 @@ func TestGetDeliveryScenario_Error_MissingId(t *testing.T) {
 	}
 	if err == nil {
 		t.Error("No error raised")
+	}
+}
+
+func Test_Integration_Deliveries(t *testing.T) {
+	godotenv.Load()
+	c := New(&http.Client{},
+		WithUsername(os.Getenv("USERNAME")),
+		WithHashedPassword(os.Getenv("SECRET")),
+		WithVersion("15"),
+	)
+	authErr := c.Authenticate()
+	if authErr != nil {
+		t.Error("auth failed")
+	}
+	deliveries, dErr := c.GetDeliveries([]DeliveryStatus{COMPLETED, CURRENT})
+	if dErr != nil {
+		t.Error(dErr)
+	}
+	pos, posErr := c.GetDeliveryPosition((*deliveries)[0].DeliveryId)
+	if posErr != nil {
+		t.Fatal(posErr)
+	}
+	if pos == nil {
+		t.Error("invalid pos")
 	}
 }
