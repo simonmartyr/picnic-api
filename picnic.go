@@ -15,14 +15,17 @@ import (
 
 // Client the picnic api client it is recommended to use the New method to create a new instance
 type Client struct {
-	http     *http.Client
-	baseURL  string
-	version  string
-	country  string
-	token    string
-	username string
-	secret   string
+	http        *http.Client
+	baseURL     string
+	version     string
+	country     string
+	token       string
+	parsedToken *token
+	username    string
+	secret      string
 }
+
+const appVersion = "1.15.243-18832"
 
 type ClientOption func(client *Client)
 
@@ -182,7 +185,13 @@ func (c *Client) get(url string, result interface{}) error {
 	if requestErr != nil {
 		return requestErr
 	}
-	configureHeaders(request, c.token)
+	c.configureHeaders(request)
+	if strings.Contains(url, "deliveries") {
+		headerErr := c.includeAgentHeader(request)
+		if headerErr != nil {
+			return headerErr
+		}
+	}
 	res, httpErr := c.http.Do(request)
 	if httpErr != nil {
 		return httpErr
@@ -207,7 +216,7 @@ func (c *Client) post(url string, body any, result interface{}) error {
 	if requestErr != nil {
 		return requestErr
 	}
-	configureHeaders(request, c.token)
+	c.configureHeaders(request)
 	res, httpErr := c.http.Do(request)
 	if httpErr != nil {
 		return httpErr
@@ -263,7 +272,19 @@ func makeUrl(countryCode string, version string) string {
 	return fmt.Sprintf("https://storefront-prod.%s.picnicinternational.com/api/%s", countryCode, version)
 }
 
-func configureHeaders(request *http.Request, token string) {
-	request.Header.Set("x-picnic-auth", token)
+func (c *Client) configureHeaders(request *http.Request) {
+	request.Header.Set("x-picnic-auth", c.token)
 	request.Header.Set("Content-Type", "application/json")
+}
+
+func (c *Client) includeAgentHeader(request *http.Request) error {
+	if c.parsedToken == nil {
+		err := c.parseJwt()
+		if err != nil {
+			return err
+		}
+	}
+	request.Header.Set("x-picnic-agent", fmt.Sprintf("%d;%s;", c.parsedToken.PcClid, appVersion))
+	request.Header.Set("x-picnic-did", c.parsedToken.PcDid)
+	return nil
 }
