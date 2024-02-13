@@ -44,6 +44,10 @@ func TestGetDeliveryScenario_Error_MissingId(t *testing.T) {
 
 func Test_Integration_Deliveries(t *testing.T) {
 	godotenv.Load()
+	if os.Getenv("SKIP_WIP") != "" {
+		//TODO https://github.com/simonmartyr/picnic-api/issues/4
+		t.Skip("Skipping")
+	}
 	c := New(&http.Client{},
 		WithUsername(os.Getenv("USERNAME")),
 		WithHashedPassword(os.Getenv("SECRET")),

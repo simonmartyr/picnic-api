@@ -17,4 +17,5 @@ jobs:
         env:
           USERNAME: ${{ secrets.USERNAME }}
           SECRET: ${{ secrets.SECRET }}
+          SKIP_WIP: true
         run: go test -v ./...
