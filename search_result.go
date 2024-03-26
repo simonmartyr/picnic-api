@@ -14,6 +14,8 @@ type SearchResult struct {
 	Level int             `json:"level"`
 }
 
+// Deprecated: Endpoint exists but no longer returns search results, use SearchArticles instead.
+//
 // Search Retrieves articles that relate to a given query. The results given are SingleArticle
 // These have basic information about an article. To get more information about an article leverage GetArticleDetails.
 //
