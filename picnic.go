@@ -113,7 +113,7 @@ func (c *Client) Authenticate() error {
 	requestBody, jsonErr := json.Marshal(LoginInput{
 		Key:      c.username,
 		Secret:   c.secret,
-		ClientId: 1,
+		ClientId: 20100, //code for ios
 	})
 	if jsonErr != nil {
 		return jsonErr
@@ -186,7 +186,7 @@ func (c *Client) get(url string, result interface{}) error {
 		return requestErr
 	}
 	c.configureHeaders(request)
-	if strings.Contains(url, "deliveries") {
+	if strings.Contains(url, "deliveries") || strings.Contains(url, "pages") {
 		headerErr := c.includeAgentHeader(request)
 		if headerErr != nil {
 			return headerErr
