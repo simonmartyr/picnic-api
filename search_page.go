@@ -6,20 +6,12 @@ import (
 )
 
 type SearchPage struct {
-	Body SearchPageBody `json:"body"`
+	Body RecursiveChildren `json:"body"`
 }
 
-type SearchPageBody struct {
-	Children []BodyChild `json:"children"`
-}
-
-type BodyChild struct {
-	Children []ContentChild `json:"children"`
-	Content  Content        `json:"content"`
-}
-
-type ContentChild struct {
-	Content SearchContent `json:"content"`
+type RecursiveChildren struct {
+	Children []RecursiveChildren `json:"children"`
+	Content  SearchContent       `json:"content"`
 }
 
 type SearchContent struct {
@@ -52,11 +44,19 @@ func (c *Client) SearchArticles(query string) ([]SingleArticle, error) {
 func (page *SearchPage) extractArticles() []SingleArticle {
 	var articles []SingleArticle
 	for _, child := range page.Body.Children {
-		for _, contentChild := range child.Children {
-			if contentChild.Content.Type == sellingUnitType {
-				articles = append(articles, contentChild.Content.SellingUnit)
-			}
-		}
+		child.findArticles(&articles)
 	}
 	return articles
+}
+
+func (recursive *RecursiveChildren) findArticles(articles *[]SingleArticle) {
+	if &recursive.Content == nil && (recursive.Children == nil || len(recursive.Children) == 0) {
+		return
+	}
+	if &recursive.Content != nil && recursive.Content.Type == sellingUnitType {
+		*articles = append(*articles, recursive.Content.SellingUnit)
+	}
+	for _, child := range recursive.Children {
+		child.findArticles(articles)
+	}
 }
