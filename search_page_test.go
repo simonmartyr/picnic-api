@@ -14,10 +14,14 @@ func TestSearchPage(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if len(res) != 79 {
+	if len(res) != 118 {
 		t.Error("Invalid result length")
 	}
+	idMap := make(map[string]bool)
 	for _, item := range res {
+		if _, exists := idMap[item.Id]; exists {
+			t.Error("duplicate id")
+		}
 		if item.Name == "" {
 			t.Error("Invalid Item Name")
 		}
@@ -27,6 +31,8 @@ func TestSearchPage(t *testing.T) {
 		if item.DisplayPrice == 0 {
 			t.Error("Invalid Display Price")
 		}
+		idMap[item.Id] = true
+
 	}
 }
 
