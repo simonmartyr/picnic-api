@@ -54,4 +54,4 @@ Thanks to the efforts of [MRVDH](https://github.com/MRVDH/picnic-api/) which doc
 
 ## Support
 
-![Static Badge](https://img.shields.io/badge/buy_me_a-coffee-green?style=flat&logo=buymeacoffee&logoColor=f5f5f5&link=https%3A%2F%2Fwww.buymeacoffee.com%2Fsmartyr)
+[![Static Badge](https://img.shields.io/badge/buy_me_a-coffee-green?style=flat&logo=buymeacoffee&logoColor=f5f5f5&link=https%3A%2F%2Fwww.buymeacoffee.com%2Fsmartyr)](https://buymeacoffee.com/smartyr)
