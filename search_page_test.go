@@ -14,7 +14,7 @@ func TestSearchPage(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if len(res) != 118 {
+	if len(res) != 78 {
 		t.Error("Invalid result length")
 	}
 	idMap := make(map[string]bool)
@@ -79,7 +79,6 @@ func Test_Integration_SearchPage(t *testing.T) {
 	c := New(&http.Client{},
 		WithUsername(os.Getenv("USERNAME")),
 		WithHashedPassword(os.Getenv("SECRET")),
-		WithVersion("15"),
 	)
 	authErr := c.Authenticate()
 	if authErr != nil {

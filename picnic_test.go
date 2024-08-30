@@ -130,10 +130,10 @@ func TestGetArticleImage_NotFound(t *testing.T) {
 
 func TestNew(t *testing.T) {
 	c := New(&http.Client{})
-	if c.baseURL != "https://storefront-prod.nl.picnicinternational.com/api/17" {
+	if c.baseURL != "https://storefront-prod.nl.picnicinternational.com/api/15" {
 		t.Error("Invalid baseurl")
 	}
-	if c.version != "17" {
+	if c.version != "15" {
 		t.Error("Invalid version")
 	}
 	if c.country != "nl" {
@@ -155,7 +155,7 @@ func TestNew_With_Version(t *testing.T) {
 func TestNew_With_Country(t *testing.T) {
 	country := "be"
 	c := New(&http.Client{}, WithCountry(country))
-	if c.baseURL != "https://storefront-prod.be.picnicinternational.com/api/17" {
+	if c.baseURL != "https://storefront-prod.be.picnicinternational.com/api/15" {
 		t.Error("Invalid baseurl")
 	}
 	if c.country != country {
