@@ -93,8 +93,8 @@ func WithHashedPassword(hashedPassword string) ClientOption {
 func New(client *http.Client, opts ...ClientOption) *Client {
 	c := &Client{
 		http:    client,
-		baseURL: "https://storefront-prod.nl.picnicinternational.com/api/17",
-		version: "17",
+		baseURL: "https://storefront-prod.nl.picnicinternational.com/api/15",
+		version: "15",
 		country: "nl",
 	}
 
