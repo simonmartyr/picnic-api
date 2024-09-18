@@ -1,9 +1,7 @@
 package picnic
 
 import (
-	"github.com/joho/godotenv"
 	"net/http"
-	"os"
 	"testing"
 )
 
@@ -75,15 +73,7 @@ func TestSearchPage_RequiresTerm(t *testing.T) {
 }
 
 func Test_Integration_SearchPage(t *testing.T) {
-	godotenv.Load()
-	c := New(&http.Client{},
-		WithUsername(os.Getenv("USERNAME")),
-		WithHashedPassword(os.Getenv("SECRET")),
-	)
-	authErr := c.Authenticate()
-	if authErr != nil {
-		t.Error("auth failed")
-	}
+	c := intClient(t)
 	res, err := c.SearchArticles("melk")
 	if err != nil {
 		t.Fatal(err)

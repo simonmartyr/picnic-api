@@ -20,6 +20,20 @@ func Test_GetDeliverySlots(t *testing.T) {
 	}
 }
 
+func Test_Integration_GetDeliverySlots(t *testing.T) {
+	c := intClient(t)
+	res, err := c.GetDeliverySlots()
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(res.DeliverySlots) == 0 {
+		t.Error("Invalid Delivery slots empty")
+	}
+	if res.DeliverySlots[0].SlotId == "" {
+		t.Error("Invalid DeliverySlotId")
+	}
+}
+
 func Test_GetDeliverySlots_Errors_RequiresAuth(t *testing.T) {
 	c := &Client{
 		http:  http.DefaultClient,

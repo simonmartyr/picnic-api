@@ -68,6 +68,22 @@ func testClientImage(code int, filename string, validators ...func(*http.Request
 	return testImageClient(code, f, validators...)
 }
 
+func intClient(t *testing.T) *Client {
+	godotenv.Load()
+	if os.Getenv("SKIP_INT") != "" {
+		t.Skip("Integration Skipped")
+	}
+	c := New(&http.Client{},
+		WithUsername(os.Getenv("USERNAME")),
+		WithHashedPassword(os.Getenv("SECRET")),
+	)
+	authErr := c.Authenticate()
+	if authErr != nil {
+		t.Error(authErr)
+	}
+	return c
+}
+
 func TestAuthenticate(t *testing.T) {
 	tokenVal := "tokenVal"
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {

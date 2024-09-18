@@ -29,6 +29,17 @@ func TestGetUser(t *testing.T) {
 	}
 }
 
+func Test_Integration_GetUser(t *testing.T) {
+	c := intClient(t)
+	res, err := c.GetUser()
+	if err != nil {
+		t.Fatal(err)
+	}
+	if res.Firstname != "Simon" {
+		t.Error("Invalid User firstName")
+	}
+}
+
 func TestGetUserError(t *testing.T) {
 	c, s := testClientFile(http.StatusUnauthorized, "test/error.json")
 	defer s.Close()
